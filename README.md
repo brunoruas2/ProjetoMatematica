@@ -1,6 +1,9 @@
 # Projeto Matemática
  Repositório Oficial do Projeto Matemática no [Economia Mainstream](https://www.economiamainstream.com.br).
 
+## Melhorias Em Desenvolvimento
+- [ ] Conversor LaTeX-HTML
+
 ## Fase 01 - Fundamentos
 ### Resumo de Livro: Book of Proof - Richard Hammack
 - [x] Conjuntos
