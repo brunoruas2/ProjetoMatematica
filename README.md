@@ -1,5 +1,5 @@
 # Projeto Matemática
- Repositório Oficial do Projeto Matemática no [Economia Mainstream](https://www.economiamainstream.com.br).
+ Repositório Oficial do Projeto Matemática no [Economia Mainstream](https://www.economiamainstream.com.br)
 
 ## Melhorias Em Desenvolvimento
 - [ ] Conversor LaTeX-HTML
