@@ -26,8 +26,8 @@
 \usepackage{tikz} % to draw Venn's diagrams
 
 % dark theme no pdf
-\pagecolor[rgb]{0.1,0.1,0.1} %black
-\color[rgb]{0.9,0.9,0.9} %grey
+%\pagecolor[rgb]{0.1,0.1,0.1} %black
+%\color[rgb]{0.9,0.9,0.9} %grey
 
 % criando o modelo de definicoes/teoremas/fatos/demonstracoes
 \theoremstyle{definition}
@@ -1627,7 +1627,7 @@ $\Updownarrow$ &       \empty  & $ \Updownarrow$ \\
 Vimos até aqui teoremas gerais, como é a maioria dos casos, queremos sempre trabalhar sem perder a generalidade dos nossos teoremas. Teoremas do tipo:
 \\
 \\
-Seja $p(x)$ uma função relacional, então $\forall x, p(x)$
+\textbf{Teorema:} Seja $p(x)$ uma função relacional, então $\forall x, p(x)$
 .\\
 .\\
 .\\
@@ -1637,11 +1637,12 @@ Logo, $p(x) \ \ \blacksquare$
 Nessa sessão estamos mais interessados nos teoremas do tipo:
 \\
 \\
-Seja $p(x)$ uma função relacional, então $ \exists x \ tq. \ p(x)$
+\textbf{Teorema:} Seja $p(x)$ uma função relacional, então $ \exists x \ tq. \ p(x)$
 .\\
 .\\
 .\\
 Logo, se $ x = k \Leftrightarrow p(x) \ \ \ \blacksquare$
+\\
 Um exemplo bem simples que podemos dar é:
 \begin{theorem}
 Existe $x \in \mathbb{N}$ tal que $x^x = x$ 
@@ -1663,7 +1664,7 @@ $$n^{n-1} = 1$$
 O que é um absurdo, pois $n^{n-1} = n_1n_2n_3 \dots n_{n-1} =	1$, se, e somente se, $n=1$ \empty $\blacksquare$
 \\
 \\
-Mesmo que esse seja um teoremas bem simples dá pra usar um pouco mais a imaginação e encrentá-lo um pouco:
+Mesmo que esse seja um teoremas bem simples dá pra usar um pouco mais a imaginação e increntá-lo um pouco:
 \begin{theorem}
 Existe $x \in \mathbb{Z}$ tal que $x^x = x$ 
 \end{theorem}
@@ -1674,9 +1675,32 @@ $$(-1)^{-1} = \frac{-1}{(-1)^2} = \frac{-1}{1} = -1$$
 Agora suponha que $x = m, m < -1$, então $m^m \neq m$, porque:
 $$m^m = \frac{m}{m^{-m+1}}= \frac{m}{m_1m_2 \dots m_{-m+1}} = \frac{1}{m_1m_2 \dots m_{-m}} \neq m$$
 Logo, $x^x = x \Leftrightarrow x= \pm 1 \ \ \ \blacksquare$
+
+\section{Provas contrativas e não construtivas}
+Provas construtivas e não construtivas diferem em sua maneira de citar exemplos no docorrer de seu desenvolvimento. Uma prova construtiva apresenta um exemplo de forma explícita para provar um teorema, como fizemos com a sessão anterior.
+\par 
+
+As não-construtivas apostam mais na capacidade dedutiva dos leitores e normalmente omitem boa parte dos exemplos, sendo bem diretos com a demonstração.
+
+
 %%%%%%%%%%%%%%%%%%%%%%%% CHAPTER %%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Provas Envolvendo Conjuntos}
+Em seus estudos verá teoria dos conjuntos incontáveis vezes em diversas campos. Em especial a Análise Real (que é para o que estamos nos preparamos), todo livro que se preze tem um capítulo específico apenas para conjuntos. Isso nos revela o quão relevante e importante é o estudo dos conjuntos.
+\par 
 
+Conforme for avançando na matemática verá muitas provas envolvendo conjuntos, álgebra linear, abstrata, análise. Por isso é importante que aprender a ler e compreender provas envolvendo-os.
+\par 
+
+Caso seja necessário revise os primeiros capítulos do Projeto Matemática.
+
+\section{Como provar que $ a \in A $}
+Sabemos que um conjunto é determinado por uma regra $P(x)$, os elementos do conjunto universo que obedeçam essa $P(x)$ são elementos desse conjunto. Então, dados um conjunto qualquer:
+$$A = \{x: P(x)\}$$
+
+Para provar que um $x \in A$ temos que mostrar esse valor obedece $P(x)$.
+
+\textbf{Exemplo:} Prove que $x \in A$ para $x = 5$ onde $A = {x \in \mathbb{N}: x > 4}$.
+ 
 %%%%%%%%%%%%%%%%%%%%%%%% CHAPTER %%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Contraprova}
 
