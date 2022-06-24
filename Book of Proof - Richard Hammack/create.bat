@@ -1,0 +1,1 @@
+pdflatex book_of_proof.tex

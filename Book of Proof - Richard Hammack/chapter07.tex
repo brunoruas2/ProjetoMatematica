@@ -1,0 +1,113 @@
+\documentclass[main.tex]{subfiles}
+\begin{document}
+
+No capítulo anterior aprendemos a provar afirmações condicionais, mesmo que sejam a massiva maioria dos teoremas sigam esse padrão, não são todos.
+\\
+Durante seus estudar na matemática verá muitos teoremas que são bicondicionais, do tipo $P \Leftrightarrow Q$, e com certeza, em algum momento, precisará prová-los. E esse é o objetivo deste capítulo.
+
+\section{Prova de Se, e somente se}
+Pelos nossos estudos de lógica sabemos que $P \Leftrightarrow Q$ é equivalente a $(P \Rightarrow Q) \land (Q \Rightarrow P)$. Portanto para provarmos esse tipo de proposição é necessário que tanto $P \Rightarrow Q$ e $Q \Rightarrow P$ sejam verdadeiros.
+\\
+É válido lembrar que pode utilizar a técnica que preferir para provar as condições.
+
+\begin{proposition}
+Suponha $x \in \mathbb{Z}$. Então x é par se, e somente se $3x + 5$ for impar.
+\end{proposition}
+\textit{Prova:} Se $x = 2a$, então $3(2a) + 5$, sabemos que 5 é um número impar e pode ser escrito como $4+1$. Substituímos isso na equação e:
+$$ 3(2a) + 4+1 = 6a+4+1 = 2(3a +2) +1$$
+Reciprocamente. Se $3x + 5 = 2(a)+1$, então:
+$$3x+5 = 2a+1$$
+$$3x = 2a -4$$
+$$x = 2 \left(\frac{a-2}{3} \right) \ \ \ \blacksquare $$
+
+\section{Afirmações equivalentes}
+Ao estudarmos matemática podemos encontrar teoremas que sejam equivalentes. Porém ainda assim precisamos provar que sejam equivalentes.
+\\
+\\
+Suponha os teoremas $(a), (b), (c)$ e $(d)$, e que sejam equivalentes entre si, como demonstrar essa equivalência? Bem, é simples, basta demonstrar que um implica em outro de forma circular.
+\begin{center}
+\begin{tabular}{c c c}
+     $(a)$ & $\Rightarrow$ & $(b)$ \\
+$\Uparrow$ &       \empty  & $\Downarrow$ \\
+     $(c)$ & $\Leftarrow$ & $(d)$ \\
+\end{tabular}
+\end{center}
+E para como estamos lidando com equivalência. precisamos provar que são teoremas bicondicionais, como já realizamos o primeiro passo, precisamos inverter o sentido desse "círculo", e mostrar que:
+\begin{center}
+\begin{tabular}{c c c}
+     $(a)$ & $\Leftarrow$ & $(b)$ \\
+$\Downarrow$ &       \empty  & $ \Uparrow$ \\
+     $(c)$ & $\Rightarrow$ & $(d)$ \\
+\end{tabular}
+\end{center}
+Assim sabemos que os 4 teoremas são equivalentes, isso é:
+\begin{center}
+\begin{tabular}{c c c}
+     $(a)$ & $\Leftrightarrow$ & $(b)$ \\
+$\Updownarrow$ &       \empty  & $ \Updownarrow$ \\
+     $(c)$ & $\Leftrightarrow$ & $(d)$ \\
+\end{tabular}
+\end{center}
+
+\section{Provas de Existência; Provas de existência e unicidade}
+Vimos até aqui teoremas gerais, como é a maioria dos casos, queremos sempre trabalhar sem perder a generalidade dos nossos teoremas. Teoremas do tipo:
+\\
+\\
+\textbf{Teorema:} Seja $p(x)$ uma função relacional, então $\forall x, p(x)$
+.\\
+.\\
+.\\
+Logo, $p(x) \ \ \blacksquare$
+\\
+\\
+Nessa sessão estamos mais interessados nos teoremas do tipo:
+\\
+\\
+\textbf{Teorema:} Seja $p(x)$ uma função relacional, então $ \exists x \ tq. \ p(x)$
+.\\
+.\\
+.\\
+Logo, se $ x = k \Leftrightarrow p(x) \ \ \ \blacksquare$
+\\
+Um exemplo bem simples que podemos dar é:
+\begin{theorem}
+Existe $x \in \mathbb{N}$ tal que $x^x = x$ 
+\end{theorem}
+Queremos provar que existe um único valor de $x$ que satisfaça nosso teorema, podemos fazer da seguinte maneira:
+\\
+\\
+\textit{Prova: } se $x = 1$, então $1^1 = 1$
+\\
+\\
+Isso é o suficiente pra provar que ela é única? Não, como estamos trabalhando dentro do conjunto dos números naturais então vamos complementar nossa prova e mostrar que para $x>1, x^x \neq x$.
+\\
+\\
+\textit{Prova: } Se $x = 1$, então $1^1 = 1$.
+\\ Suponha $x=n, n>1$, então:
+$$n^n = n_1n_2n_3 \dots n_n \neq	n$$
+Agora suponha que $n^n = n$. Dividimos por $n$ e concluímos que:
+$$n^{n-1} = 1$$
+O que é um absurdo, pois $n^{n-1} = n_1n_2n_3 \dots n_{n-1} =	1$, se, e somente se, $n=1$ \empty $\blacksquare$
+\\
+\\
+Mesmo que esse seja um teoremas bem simples dá pra usar um pouco mais a imaginação e increntá-lo um pouco:
+\begin{theorem}
+Existe $x \in \mathbb{Z}$ tal que $x^x = x$ 
+\end{theorem}
+\textit{Prova: } Já provamos que é verdade para $x=1$ e para qualquer $x>1$ isso é falso. Porém agora estamos trabalhando dentro do conjuntos dos inteiros, isso inclui os números negativos, e consequentemente teremos que mostrar que para $x = \pm 1$ o teorema é verdadeiro:
+\\
+Se $x=-1$ então:
+$$(-1)^{-1} = \frac{-1}{(-1)^2} = \frac{-1}{1} = -1$$
+Agora suponha que $x = m, m < -1$, então $m^m \neq m$, porque:
+$$m^m = \frac{m}{m^{-m+1}}= \frac{m}{m_1m_2 \dots m_{-m+1}} = \frac{1}{m_1m_2 \dots m_{-m}} \neq m$$
+Logo, $x^x = x \Leftrightarrow x= \pm 1 \ \ \ \blacksquare$
+
+\section{Provas contrativas e não construtivas}
+Provas construtivas e não construtivas diferem em sua maneira de citar exemplos no docorrer de seu desenvolvimento. Uma prova construtiva apresenta um exemplo de forma explícita para provar um teorema, como fizemos com a sessão anterior.
+\par 
+
+As não-construtivas apostam mais na capacidade dedutiva dos leitores e normalmente omitem boa parte dos exemplos, sendo bem diretos com a demonstração.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% CHAPTER %%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

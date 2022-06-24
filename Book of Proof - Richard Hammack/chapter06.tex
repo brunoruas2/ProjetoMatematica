@@ -1,0 +1,75 @@
+\documentclass[main.tex]{subfiles}
+\begin{document}
+
+\section{Provando Afirmações com Contradição}
+A Prova por Contradição já foi mencionada nos capítulos anteriores e aprenderemos ela no decorrer desse capítulo.\\
+Ela consistem assumir que o que quer provar seja falso leva à uma contradição, então o modelo é mais ou menos assim:
+\textbf{Proposição }$P$\\
+Assuma $\sim P$ \\
+. \\
+. \\
+. \\
+Então $C \land \sim C$
+\\
+Perceba que $C \land \sim C$ é a contradição que buscamos, pois algo não pode ser e não-ser ao mesmo tempo. Essa relação fica muito mais simples de ser compreendida numa tabela verdade. \\
+\begin{center}
+\begin{tabular}{|c | c || c | c | c || c |} \hline
+$P$  & $C$ & $\sim P$ & $\sim C$ & $C \land \sim C$ & $(\sim P) \Rightarrow (C \land \sim C)$  \\ \hline 
+V    &  V  &  F       &  F       &   F              &         T   \\
+V    &  F  & F        &  V       &  F               &         T \\
+F    &   V & V        &F         &  F               &       F \\
+F    & F   & V        & V        & F                & F    \\ \hline 
+\end{tabular}
+\end{center}
+Vamos fazer alguns exemplos para entender como funciona na prática:
+
+\begin{definition}
+Um número real $x$ é racional se $\exists \ a,b \in \mathbb{Z} \ tq. \ x = \frac{a}{b}$\\
+Um número real $x$ é irracional se $\not\exists \ a,b \in \mathbb{Z} \ tq. \ x = \frac{a}{b}$
+\end{definition}
+\begin{proposition}
+O número $\sqrt{6}$ é irracional
+\end{proposition}
+\textit{Prova:} Assuma que $\sqrt{6}$ é racional, então: 
+$$\sqrt{6} = \frac{a}{b}$$
+Vamos supor que $\frac{a}{b}$ esteja completamente reduzida (ou seja, seu \textbf{Máximo Divisor Comum} é 1), isso é, não temos $a$ e $b$ pares. Elevamos ambos os lados da equação ao quadrado:
+$$6 = \frac{a^2}{b^2} \Rightarrow a^2 = 6b^2$$
+Como podemos ver $a^2$ é múltiplo de 3, logo $a$ é múltiplo de 6 (Verifique), então pode ser escrito como $a = 6x$. \\
+$$(6x)^2 = 6b^2) \Rightarrow 36x^2 = 6b^2) = 6x^2 = b^2$$
+Então $b^2$ é múltiplo de $6$, logo $6 | b$. \\
+Portanto $a$ e $b$ são múltiplos de $6$, o que viola nossa suposição, ou seja, uma contradição $\blacksquare$
+\section{Provando Afirmações Condicionais por Contradição}
+Nessa sessão trabalharemos com as afirmações condicionais, o processo é bem semelhante e novamente mostraremos uma tabela verdade para mostrar equivalência lógica, mas antes vamos ao modelo da prova: \\ \\
+\textbf{Proposição} $P \Rightarrow Q$ \\
+\textit{Prova:} Assuma $P \Rightarrow \sim Q$\\
+. \\
+. \\
+. \\
+($C \land \sim C$) \\ \\
+Como já sabemos $\sim(P \Rightarrow Q)$ e $P \Rightarrow \sim Q$ são lógicamente equivalentes, mas mesmo assim vamos visualizar isso. \\
+\begin{center}
+\begin{tabular}{| c | c || c | c | c | c |} \hline
+$P$ & $Q$ & $\sim Q$ & $P \Rightarrow Q$ & $\sim(P \Rightarrow Q)$ & $P \Rightarrow \sim Q$ \\ \hline
+V & V & F & V & F & F \\ 
+V & F & V & F & V & V \\ 
+F & V & F & V & F & F \\ 
+F & F & V & F & V & V \\ \hline
+\end{tabular}
+\end{center}
+E novamente vamos por em prática:
+\begin{proposition}
+Dados $a,b,c \in \mathbb{Z}$, então $a^2 + 4b -2 \neq 0$
+\end{proposition}
+\textit{Prova:} Suponha que $a^2 + 4b -2 = 0$ isso implica que $a^2 + 4b = 2$, logo:
+$$a = \sqrt{2-4b} \ \ \ (1)$$
+$$b = \frac{2-a^2}{4} \ \ \ (2) $$
+Substituindo (2) em $a^2 + 4b -2 = 0$:
+$$a^2 + a^2 + 2 -2 = 0$$
+\section{Combinando Técnicas}
+\section{Uma Advertência}
+As Provas por Contradição são realmente poderosas, porém o estudante deve sempre dar preferência por outras técnicas, essa é um último recurso caso uma Prova Direta ou Contrapositiva não tenha funcionado.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                    PART                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
