@@ -8,27 +8,21 @@
 \section{Proposições}
 
 O estudo da lógica começa com as proposições. Uma \textbf{proposição} é uma sentença ou expressão matemática que seja definitivamente verdadeira ou falsa. Em cima dessas proposições é que aplicamos a lógica para produção de novas proposições. Qualquer resultado ou teorema provado é, na verdade, uma proposição\footnote{Isso inclui o teorema de Pitágoras, por exemplo.}. 
-\\
-\\
+\\~\\
 \textbf{Aviso}: Ao longo desse capítulo a palavra "proposição" \ vai ser repetida muitas vezes. Essa repetição é proposital. Eu quero que você internalize a importância desse conceito para a análise matemática.
-\\
-\\
+\\~\\
 Podemos usar letras para nomear proposições. Por exemplo, a proposição "Se um número $x$ é múltiplo de 6, então $x$ é par" \  pode ser resumida em uma letra. Nesse caso diremos que "$P$" \ é a proposição acima. Dessa feita, sempre que dissermos $P$ é falso ou $P$ é verdadeiro, estamos nos referindo a proposição completa.
-\\
-\\
+\\~\\
 Quando uma proposição possuir variáveis, podemos escreve-la de uma maneira similar às funções. No exemplo do parágrafo acima, podemos usar o símbolo $P(x)$ para expressar que a proposição $P$ possui uma variável $x$ dentro dela.\footnote{Fique atento para não confundir quando estivermos nos referindo a funções e proposições.}
-\\
-\\
+\\~\\
 Uma \textbf{sentença aberta} é uma proposição cuja validade depende da sua variável. Ou seja, dependendo do valor que você der para a variável, a proposição pode ser verdadeira ou falsa.
-\\
-\\
+\\~\\
 Esse livro do professor Hammack é justamente sobre o método de como se provar que uma proposição é verdade ou falsa. Existem estratégias de raciocínio que podem ser usadas para demonstrar proposições e, consequentemente, teoremas complexos. Nosso objetivo nesse curso é lhe ensinar essas técnicas.
 
 \section{Operadores: e, ou, não}
 
 Até agora foi dito que você pode usar proposições junto à lógica para se chegar a outras proposições. Então vamos aprender como trabalhar com mais de uma proposição por meio dos \textbf{operadores lógicos}.
-\\
-\\
+\\~\\
 O primeiro operador que vamos aprender é o "$e$". Dadas as proposições $P$ e $Q$. Podemos criar uma nova proposição através desse operador. Quando escrevemos $R: P \ e \ Q$, estamos criando uma nova proposição $R$ que é composta de das duas proposições $P$ e $Q$. O símbolo usado para esse conectivo é o "$\land$". Aqui em baixo vamos colocar a tabela verdade\footnote{Se você não sabe o que são tabelas-verdades então dá uma lida nesse \href{https://www.youtube.com/watch?v=hWEZsyF3ZZc}{link}.} desse operador\footnote{"V" \ significa Verdadeiro e "F" \  significa Falso.}.
 
 \begin{center}
@@ -122,8 +116,7 @@ Existem situações onde duas proposições são mutuamente condicionais, ou sej
 \section{Tabelas-Verdade para Proposições}
 
 Agora que você sabe as tabelas-verdade de $\land$,$\lor$,$\sim$,$\implies$ e $\iff$, você deve internalizá-las de modo a serem muito naturais ao avaliar a validade de uma proposição cuja construção utilize esses operadores.
-\\
-\\
+\\~\\
 Vamos trabalhar uma proposição composta que expressa a seguinte situação: Dadas duas proposições $P$ e $Q$, somente uma delas é verdadeira mas não ambas. Não existe um operador que nos permita construir uma proposição apenas com um único símbolo. Para podermos construir tal proposição temos que combinar nossos operadores do seguinte modo:
 
 \begin{center}
@@ -131,8 +124,7 @@ Vamos trabalhar uma proposição composta que expressa a seguinte situação: Da
 \end{center}
 
 Essa proposição pode assustar numa primeira olhada, contudo, ela expressa exatamente nossa intenção anteriormente explicitada. Podemos resumi-la como: "$P$ ou $Q$ são verdadeiras, mas não é o caso onde $P$ e $Q$ são verdadeiras.
-\\
-\\
+\\~\\
 A tabela-verdade dessa proposição é a seguinte:
 
 \begin{center}
@@ -164,21 +156,17 @@ Calma. É bem mais tranquilo do que parece. Vamos analisar essa tabela por parte
 \end{center}
 
 Que é exatamente igual à última coluna da tabela-verdade anterior. Portanto, nossa proposição é verdadeira exatamente quando $P$ ou $Q$ são verdadeiros mas não quando ambos são verdadeiros. Parabéns por ter entendido até aqui!
-\\
-\\
+\\~\\
 \textbf{Comentário}: Eu peguei esse exemplo direto do livro. Contudo, eu pensei um pouco e uma equivalência a essa proposição composta (bem mais simples) seria $\sim(P \iff Q)$\footnote{Você consegue ver isso?}.
 
 \section{Equivalência Lógica}
 
 Nesse meu comentário acima já vemos um exemplo de equivalência lógica. Quando temos tabelas-verdade iguais para proposições diferentes. Podemos dizer que elas são \textbf{logicamente equivalentes}.
-\\
-\\
+\\~\\
 Esse conceito é importante porque podemos trabalhar o mesmo problema de diferentes abordagens e acabarmos chegando no mesmo resultado. Cada abordagem pode ter facilidades que queiramos explorar e que vão nos permitindo desenrolar o pensamento necessário para uma demonstração mais complexa.
-\\
-\\
+\\~\\
 Muitos teoremas matemáticos usam a forma $P \implies Q$. Mas, não raramente, precisamos usar a equivalência lógica e trabalhar com a proposição $\sim (Q) \implies \sim (P)$. Para ver essa equivalência, basta construir as tabelas-verdade das duas proposições.\footnote{Fica como dever de casa pra você.}
-\\
-\\
+\\~\\
 Existem equivalências que são tão importantes que possuem um nome particular. As duas abaixo são chamadas de Lei de DeMorgan.
 
 \begin{center}
@@ -233,8 +221,7 @@ Nessa parte o professor elenca várias equivalências que podem ser verificadas 
 \section{Quantificadores}
 
 Até agora nós já vimos um punhado de símbolos que nos permitem construir proposições consideravelmente complexas, bem como, achar as equivalências entre diferentes proposições. Mas ainda temos um problema para superar: o que fazer quando temos que lidar com infinitos elementos?
-\\
-\\
+\\~\\
 O professor usa o seguinte exemplo: Imagine um conjunto infinito de números inteiros $X = \{ x_1,x_2,x_3, \dots \}$. Com os símbolos apresentados até agora, como faríamos para representar as seguintes proposições?
 
 \begin{itemize}
@@ -251,8 +238,7 @@ E para a segunda proposição ($Z_2$), algo como
 $$P(x_1) \lor P(x_2) \lor P(x_3) \lor \dots$$
 
 Ou seja, acabaríamos com proposições de tamanho infinito.
-\\
-\\
+\\~\\
 Para superar essa dificuldade, vamos introduzir novos símbolos "$\forall$" \ e "$\exists$". O símbolo $\forall$ significa "para todos" \ e o símbolo $\exists$ significa "existe algum". Desse modo podemos reescrever as proposições anteriores como:
 
 \begin{itemize}
@@ -261,24 +247,19 @@ Para superar essa dificuldade, vamos introduzir novos símbolos "$\forall$" \ e 
 \end{itemize}
 
 Nós chamamos esses novos símbolos de \textbf{quantificadores}.\footnote{Não sei você, mas pra mim esse daria um bom nome de banda.} Esse nome é porque eles se referem a alguma propriedade da quantidade de algo. $\forall$ é chamado de \textbf{quantificador universal} e $\exists$ é chamado de \textbf{quantificador existencial}. Proposições que contenham esses símbolos são chamadas de \textbf{proposições quantificadas}.
-\\
-\\
+\\~\\
 \textbf{Dica}: Leia o exemplo 2.5 do livro. O professor Hammack dá 4 exemplos em inglês e "traduz" \ esses exemplos para os símbolos que já aprendemos até agora.
 
 \section{Um pouco mais de Proposições Condicionais}
 
 Na seção 2.1 nós vimos que uma \textbf{sentença aberta} é uma proposição cuja validade depende do valor da variável. Contudo, uma característica que os quantificadores possuem é transformar sentenças abertas em proposições.
-\\
-\\
+\\~\\
 Dada a sentença aberta "$x$ é par $\implies$ $x$ é múltiplo de 6". A validade dessa afirmação depende totalmente do valor dado para a variável $x$. Agora, quando adicionamos um quantificador "$\forall \ x \in \mathbb{Z}, x$ é par $\implies x$ é múltiplo de 6", ela se torna uma proposição, ou seja, podemos definir se ela é verdadeira ou falsa (nesse caso, falsa).
-\\
-\\
+\\~\\
 De maneira geral, dadas duas proposições $Q(x)$ e $P(x)$, a expressão $\forall \ x \in \mathbb{Z}, P(x) \implies Q(x)$ é verdadeira ou falsa. Logo, ela é uma proposição e não uma sentença aberta.
-\\
-\\
+\\~\\
 Agora chegamos no ponto importante sobre esse assunto: sempre que você ver duas proposições a respeito de uma variável que seja elemento de algum conjunto (previamente definido), uma expressão da forma $P(x) \implies Q(x)$ deve ser interpretada como sendo uma proposição do tipo $\forall \ x \in Conjunto, P(x) \implies Q(x)$. Ou seja, se uma proposição condicional não estiver quantificada explicitamente, então existe um quantificador implícito atrelado a ela. O motivo desse quantificador não aparecer é que cansa ter que ficar escrevendo toda hora "$\forall \ x \in Conjunto$".
-\\
-\\
+\\~\\
 Agora nós vamos definir de maneira mais geral (mas consistente com o que foi dito na seção 2.1) as proposições condicionais.
 
 \begin{definition}[Proposição Condicional]
@@ -289,11 +270,9 @@ Essa proposição será verdadeira se for impossível que $P$ seja verdadeira en
 \section{Traduzindo Português para Lógica Simbólica}
 
 Quando estamos lendo provas de teoremas, sempre devemos estar atentos para a estrutura lógica e o significado das sentenças. Não é raro ter que converter as expressões feitas de palavras para expressões feitas dos símbolos que estudamos até agora. Essa seção é uma prática para você exercitar essa competência.
-\\
-\\
+\\~\\
 \textbf{Comentário}: A partir desse ponto pode ser que você veja alguns conceitos que não foram previamente explicados no material. Não se assuste por causa disso. Foque apenas na lógica e no que você aprendeu até aqui.
-\\
-\\
+\\~\\
 \textbf{Exemplo 1}: O teorema do valor médio do Cálculo Infinitesimal.
 \\
 \hrule
@@ -308,8 +287,7 @@ $$ \left( (f \ cont. \ em \  [a,b]) \land (f \ dif. \ em \  (a,b)) \right) \impl
 Eu sei, ficou meio poluído. Pra melhorar um pouco vamos definir novas proposições e limpar um pouco essa sujeira toda. $P : $"$f$ é contínua no intervalo $[a,b]$", $Q : $"$f$ é diferenciável em $(a,b)$".
 
 $$ \left( P \land Q \right) \implies \left(\exists \ c \in (a,b), f'(c) = \dfrac{f(b) - f(a)}{b - a} \right) $$
-\\
-\\
+\\~\\
 \textbf{Exemplo 2}: A conjectura de Goldbach.
 \\
 \hrule
@@ -324,8 +302,7 @@ Ou então, podemos usar essa outra forma equivalente:
 $$ \forall \ n \in X, \exists \ p,q \in P, n = p + q $$
 \\
 Sendo $P = \{x : x \ é \ primo \}$ e $X = \{ 4,6,8,10.\dots \}$. 
-\\
-\\
+\\~\\
 Esse exemplo acima nos mostra uma relação interessante entre as proposições do tipo $(n \in X) \implies Q(n)$ e as do tipo $\forall \ n \in X, Q(x)$. Toda proposição universalmente quantificada\footnote{Ou seja, com o uso do $\forall$.} pode ser expressa como uma proposição condicional.
 
 
@@ -336,29 +313,24 @@ $$ (x \in X) \implies Q(x) $$
 \end{fact}
 
 Essas equivalências são importantes porque podemos trocar a maneira como um teorema se apresenta na hora de tentar provar ou desprovar uma proposição.
-\\
-\\
+\\~\\
 \textbf{Aviso}: Na hora que você ler um teorema, evite ir direto para as palavras "ou", "se", "e" \ como se elas sempre significassem os seus respectivos valores lógicos. O contexto é quem diz o real significado das palavras. Sempre analise o enunciado inteiro antes de transcrever para a linguagem simbólica da lógica.
 
 \section{Negando Proposições}
 
 Não é raro que ao tentar demonstrar uma proposição complexa $R$, por exemplo, seja mais fácil trabalhar com a negação dessa proposição $\sim R$. Mas na frente do curso você verá que essa é uma das técnicas usadas para provar teoremas.
-\\
-\\
+\\~\\
 Também não é incomum termos que lidar com negações de proposições quantificadas. Considere a proposição $\sim(\forall \ x \in \mathbb{N}, P(x))$. Podemos ler como "Não é o caso que $P(x)$ é verdade para todos os $x$ números naturais". Ou seja, a negativa dessa proposição envolve outro quantificador (o de existência). De modo que podemos reescrever essa negação como $\exists \ x \in \mathbb{N},\sim P(x)$.
-\\
-\\
+\\~\\
 Chegamos em um ponto importante aqui. Os quantificadores são usados para negar um ao outro. Observe as seguintes equivalências:
 
 $$ \sim (\forall \ x \in X, P(x)) = \exists \ x \in X, \sim P(x) $$
 $$ \sim (\exists \ x \in X, P(x)) = \forall \ x \in X, \sim P(x) $$
 
 \textbf{Comentário}: Se você leu com atenção até aqui, você deve ser capaz de compreender essas equivalências. Se elas não fazem sentido na sua cabeça, me manda uma dm no \href{https://twitter.com/bruno_ruas2}{twitter} explicando qual a sua dúvida. Eu posso melhorar o texto com o seu feedback.
-\\
-\\
+\\~\\
 Quando se está escrevendo demonstrações, as vezes é necessário negar proposições condicionais $P \implies Q$. Se você aprendeu a tabela-verdade desse tipo de operador, você sabe que a única maneira de ele ser falso é quando temos $P$ verdadeiro e $Q$ falso. Em termo da lógica dizemos que $\sim (P \implies Q) = P \land \sim Q$. 
-\\
-\\
+\\~\\
 \textbf{Dica}: Tente fazer o exercício 5 da seção 2.10. Tem a solução dele no final do livro. Se mesmo assim você não conseguir entender, comenta sua dúvida na postagem dessa aula no \href{https://economiamainstream.com.br/artigo/matematica/}{Economia Mainstream}.
 
 \section{Inferência Lógica}
@@ -378,8 +350,7 @@ Os diagramas acima são fáceis de se ler. Tudo que está em cima da linha é da
 \section{Nota Importante}
 
 Para finalizar, o professos elenca 3 grandes motivos para se estudar lógica: 1) As tabelas-verdade nos dizem exatamente os significados das palavras "e", "ou", "não", "se...então", etc; 2) As regras da inferência produzem um sistema onde podemos deduzir novas informações de afirmações anteriores; 3) Regras lógicas (como a lei de DeMorgan) nos ajudam a transformar proposições em formatos que sejam mais fáceis de se trabalhar e que são equivalentes.
-\\
-\\
+\\~\\
 Lógica é a linguagem-comum que toda a Matemática utiliza, então temos que ter uma boa base para poder escrever e entender a própria matemática. Durante o resto desse livro não usaremos com tanta frequência os símbolos que vimos $(\land, \lor, \implies, \iff, \sim, \forall, \exists)$ mas sempre que ler uma passagem matemática, você deve usa-los, mentalmente ou em papel, para se certificar que você a compreendeu de uma maneira inequívoca e verdadeira.
 
 %%%%%%%%%%%%%%%%%%%%%%%% CHAPTER %%%%%%%%%%%%%%%%%%%%%%%%
