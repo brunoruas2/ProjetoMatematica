@@ -25,8 +25,11 @@
 \usepackage{amsthm} % definir estilo do teorema
 \usepackage[hang,flushmargin]{footmisc} % remove footnote's identation
 \usepackage{cancel} % para poder colocar o tracinho de cancelamento
-\usepackage{tikz} % to draw Venn's diagrams
+\usepackage{tikz} % to draw Venn's diagrams and Real line
 \usepackage{subfiles} % to make multi .tex files into one single pdf
+\usepackage{amsmath}
+
+\usetikzlibrary{arrows} % to write real lines:
 
 % dark theme no pdf
 %\pagecolor[rgb]{0.1,0.1,0.1} %black
@@ -56,33 +59,6 @@
 
 % tirando identação dos paragrafos
 \setlength{\parindent}{0ex}
-
-% setting das cores quando usar codigo python
-\definecolor{codegreen}{rgb}{0,0.6,0}
-\definecolor{codegray}{rgb}{0.5,0.5,0.5}
-\definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-
-\lstdefinestyle{mystyle}{
-    backgroundcolor=\color{backcolour},   
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{magenta},
-    numberstyle=\tiny\color{codegray},
-    stringstyle=\color{codepurple},
-    basicstyle=\ttfamily\footnotesize,
-    breakatwhitespace=false,         
-    breaklines=true,                 
-    captionpos=b,                    
-    keepspaces=true,                 
-    numbers=left,                    
-    numbersep=5pt,                  
-    showspaces=false,                
-    showstringspaces=false,
-    showtabs=false,                  
-    tabsize=2
-}
-
-\lstset{style=mystyle}
 
 % dedicatoria 
 % Source: http://www.tug.org/pipermail/texhax/2010-June/
