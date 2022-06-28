@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.11)  26 JUN 2022 17:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.11)  28 JUN 2022 13:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -764,8 +764,7 @@ tex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count322
 \l__pdf_internal_box=\box66
-)
-No file book_of_proof.aux.
+) (book_of_proof.aux)
 \openout1 = `book_of_proof.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
@@ -787,6 +786,7 @@ LaTeX Font Info:    ... okay on input line 109.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
 Package hyperref Info: Link coloring OFF on input line 109.
+
 (C:\Users\bruno\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -802,6 +802,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 109.
 LaTeX Info: Redefining \pageref on input line 109.
 LaTeX Info: Redefining \nameref on input line 109.
+ (book_of_proof.out) (book_of_proof.out)
 \@outlinefile=\write4
 \openout4 = `book_of_proof.out'.
 
@@ -884,18 +885,22 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 
 {C:/Users/bruno/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-\tf@toc=\write5
-\openout5 = `book_of_proof.toc'.
-
+(book_of_proof.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 4.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 \mainmatter
-                  [1
+l.34 ...o da Inclus√£o-Exclus√£o}{36}{section.3.7}
+                                                  % [1
 
-] [1
+] [2])
+\tf@toc=\write5
+\openout5 = `book_of_proof.toc'.
+
+ [3] [1
 
 
 ]
@@ -905,8 +910,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--13
 
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 16.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 16.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1057,7 +1060,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 318--323
 
  []
 
-) [10] [11]
+) [10]
  2.
 (chapter02.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--21
@@ -1084,166 +1087,176 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--21
 
  []
 
-[12
+[11
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 24--27
 
  []
 
-[13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 118--121
+[12] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--129
+Underfull \hbox (badness 10000) in paragraph at lines 142--145
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 159--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--191
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 158--161
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--171
-
- []
-
-[16]
-Overfull \hbox (1.25827pt too wide) in paragraph at lines 219--220
+Overfull \hbox (1.25827pt too wide) in paragraph at lines 239--240
 []\T1/lmr/bx/n/10.95 Coment·rio\T1/lmr/m/n/10.95 : Como s„o mui-tas equi-va-lÍn
 -cias, se eu co-lo-car to-das as tabelas-
  []
 
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 243--246
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--226
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--263
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--272
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 240--243
+Underfull \hbox (badness 10000) in paragraph at lines 275--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--252
+Underfull \hbox (badness 10000) in paragraph at lines 275--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--264
+Underfull \hbox (badness 10000) in paragraph at lines 275--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--264
+Underfull \hbox (badness 10000) in paragraph at lines 275--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--264
+Underfull \hbox (badness 10000) in paragraph at lines 292--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--264
+Underfull \hbox (badness 10000) in paragraph at lines 292--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--298
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 272--278
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--278
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--278
-
- []
-
-[19]
-Overfull \hbox (24.2529pt too wide) detected at line 285
+Overfull \hbox (24.2529pt too wide) detected at line 305
 []  \OT1/lmr/m/n/10.95 =[]\OMS/lmsy/m/n/10.95 )  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--293
+Underfull \hbox (badness 10000) in paragraph at lines 309--313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--293
+Underfull \hbox (badness 10000) in paragraph at lines 309--313
 
  []
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 304.
+LaTeX Warning: Command \' invalid in math mode on input line 324.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--307
+Underfull \hbox (badness 10000) in paragraph at lines 322--327
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 335--338
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--318
+Underfull \hbox (badness 10000) in paragraph at lines 341--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--355
 
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 321--326
+
+LaTeX Warning: Command \c invalid in math mode on input line 365.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 365.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 365.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 365.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--375
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--326
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--335
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--335
-
- []
-
-[21]
-
-LaTeX Warning: Command \c invalid in math mode on input line 345.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 345.
-
-
-LaTeX Warning: Command \c invalid in math mode on input line 345.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 345.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 352--355
-
- []
-
-) [22]
+[21]) [22]
  3.
 (chapter03.tex
 Underfull \hbox (badness 10000) in paragraph at lines 14--25
@@ -1958,21 +1971,15 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (chapter14.tex) [65
 
 ] (book_of_proof.aux)
-
-Package rerunfilecheck Warning: File `book_of_proof.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `book_of_proof.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  FE8194C4A2E60FD332C6A41E3B1D32EC;11789.
+Package rerunfilecheck Info: File `book_of_proof.out' has not changed.
+(rerunfilecheck)             Checksum: FE8194C4A2E60FD332C6A41E3B1D32EC;11789.
  ) 
 Here is how much of TeX's memory you used:
- 24568 strings out of 478582
- 459791 string characters out of 2844344
- 739518 words of memory out of 3000000
- 42039 multiletter control sequences out of 15000+600000
- 563580 words of font info for 104 fonts, out of 8000000 for 9000
+ 24648 strings out of 478582
+ 461135 string characters out of 2844344
+ 739646 words of memory out of 3000000
+ 42108 multiletter control sequences out of 15000+600000
+ 566578 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,80p,1295b,868s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
@@ -2012,9 +2019,9 @@ no/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb
 ols/msam7.pfb><C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb><C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/rsfs/rsfs10.pfb>
-Output written on book_of_proof.pdf (67 pages, 701782 bytes).
+Output written on book_of_proof.pdf (69 pages, 743606 bytes).
 PDF statistics:
- 733 PDF objects out of 1000 (max. 8388607)
- 228 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1013 PDF objects out of 1200 (max. 8388607)
+ 231 named destinations out of 1000 (max. 500000)
+ 549 words of extra memory for PDF output out of 10000 (max. 10000000)
 

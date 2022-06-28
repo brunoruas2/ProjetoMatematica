@@ -7,9 +7,9 @@
 
 \section{Proposições}
 
-O estudo da lógica começa com as proposições. Uma \textbf{proposição} é uma sentença ou expressão matemática que seja definitivamente verdadeira ou falsa. Em cima dessas proposições é que aplicamos a lógica para produção de novas proposições. Qualquer resultado ou teorema provado é, na verdade, uma proposição\footnote{Isso inclui o teorema de Pitágoras, por exemplo.}. 
+Uma \textbf{proposição} é uma sentença, que pode ser escrita ou uma expressão matemática, que seja definitivamente verdadeira ou falsa. Em cima dessas proposições é que aplicamos a lógica para produção de novas proposições. Qualquer resultado ou teorema provado é, na verdade, uma proposição\footnote{Isso inclui o teorema de Pitágoras, por exemplo.}. O estudo da lógica começa a partir das proposições.
 \\~\\
-\textbf{Aviso}: Ao longo desse capítulo a palavra "proposição" \ vai ser repetida muitas vezes. Essa repetição é proposital. Eu quero que você internalize a importância desse conceito para a análise matemática.
+\textbf{Comentário:} Ao longo desse capítulo a palavra "proposição" \ vai ser repetida muitas vezes. Essa repetição é proposital. Queremos que você internalize a importância desse conceito para a análise matemática.
 \\~\\
 Podemos usar letras para nomear proposições. Por exemplo, a proposição "Se um número $x$ é múltiplo de 6, então $x$ é par" \  pode ser resumida em uma letra. Nesse caso diremos que "$P$" \ é a proposição acima. Dessa feita, sempre que dissermos $P$ é falso ou $P$ é verdadeiro, estamos nos referindo a proposição completa.
 \\~\\
@@ -17,13 +17,13 @@ Quando uma proposição possuir variáveis, podemos escreve-la de uma maneira si
 \\~\\
 Uma \textbf{sentença aberta} é uma proposição cuja validade depende da sua variável. Ou seja, dependendo do valor que você der para a variável, a proposição pode ser verdadeira ou falsa.
 \\~\\
-Esse livro do professor Hammack é justamente sobre o método de como se provar que uma proposição é verdade ou falsa. Existem estratégias de raciocínio que podem ser usadas para demonstrar proposições e, consequentemente, teoremas complexos. Nosso objetivo nesse curso é lhe ensinar essas técnicas.
+O livro que estamos estudando aqui trata, basicamente, sobre o método de como se provar que uma proposição é verdadeira ou falsa. Existem estratégias de raciocínio que podem ser usadas para demonstrar proposições e, consequentemente, teoremas complexos. Nosso objetivo nesse curso é lhe ensinar essas técnicas.
 
 \section{Operadores: e, ou, não}
 
 Até agora foi dito que você pode usar proposições junto à lógica para se chegar a outras proposições. Então vamos aprender como trabalhar com mais de uma proposição por meio dos \textbf{operadores lógicos}.
 \\~\\
-O primeiro operador que vamos aprender é o "$e$". Dadas as proposições $P$ e $Q$. Podemos criar uma nova proposição através desse operador. Quando escrevemos $R: P \ e \ Q$, estamos criando uma nova proposição $R$ que é composta de das duas proposições $P$ e $Q$. O símbolo usado para esse conectivo é o "$\land$". Aqui em baixo vamos colocar a tabela verdade\footnote{Se você não sabe o que são tabelas-verdades então dá uma lida nesse \href{https://www.youtube.com/watch?v=hWEZsyF3ZZc}{link}.} desse operador\footnote{"V" \ significa Verdadeiro e "F" \  significa Falso.}.
+O primeiro operador que vamos aprender é o "$e$". Dadas as proposições $P$ e $Q$. Podemos criar uma nova proposição através desse operador. Quando escrevemos "$R: P \ e \ Q$", estamos criando uma nova proposição $R$ que é composta de das duas proposições $P$ e $Q$. O símbolo usado para esse conectivo é o "$\land$". Aqui em baixo vamos colocar a tabela verdade\footnote{Se você não sabe o que são tabelas-verdades então dá uma lida nesse \href{https://www.youtube.com/watch?v=hWEZsyF3ZZc}{link}.} desse operador\footnote{"V" \ significa Verdadeiro e "F" \  significa Falso.}.
 
 \begin{center}
 \begin{tabular}{| c c || c | }
@@ -38,7 +38,8 @@ O primeiro operador que vamos aprender é o "$e$". Dadas as proposições $P$ e 
 \end{tabular}
 \end{center}
 
-Outro operador lógico clássico é o "ou". O símbolo dele é o "$\lor$". Eu sei, parece muito com o símbolo do "e" \ mas a  gente não pode fazer nada a não ser decorar bem a distinção entre esses dois símbolos. A tabela-verdade do "ou" \ segue abaixo.
+Outro operador lógico clássico é o "ou". O símbolo dele é o "$\lor$". Eu sei, parece muito com o símbolo do "e"\ mas a  gente não pode fazer nada a não ser decorar\footnote{Uma dica é usar o sentido do sinal: A letra "e"\ está "acima"\ ($\land$) da letra "o"\ ($\lor$).} bem a distinção entre esses dois símbolos. A tabela-verdade do "ou"\ segue abaixo.
+
 
 \begin{center}
 \begin{tabular}{ | c c || c | }
@@ -53,13 +54,28 @@ Outro operador lógico clássico é o "ou". O símbolo dele é o "$\lor$". Eu se
 \end{tabular}
 \end{center}
 
-\textbf{Atenção}: O significado da palavra "ou" \ na linguagem do dia a dia é diferente do significado empregado no contexto da lógica. Quando usamos o conectivo "ou" \ na lógica, fica implícita a possibilidade de ambas as proposições sejam verdadeiras ao mesmo tempo. Para as situações onde queremos que apenas uma proposição seja aceita mas não ambas, usamos um "ou exclusivo"\footnote{O símbolo desse é o "$\oplus$".} \ dos seguintes modos: 
+O significado da palavra "ou"\ na linguagem do dia a dia é diferente do significado empregado no contexto da lógica. Quando usamos o conectivo "ou"\ na lógica, fica implícita a possibilidade de ambas as proposições sejam verdadeiras ao mesmo tempo. Para as situações onde queremos que apenas uma proposição seja aceita mas não ambas, usamos um "ou exclusivo", cujo símbolo é o "$\oplus$", dos seguintes modos: 
 
 \begin{itemize}
 \item ou $P$ ou $Q$
 \item $P$ ou $Q$, mas não ambos
 \item Exatamente um de $P$ ou $Q$
 \end{itemize}
+
+A tabela-verdade desse conectivo é apresetada abaixo.
+
+\begin{center}
+\begin{tabular}{ | c c || c | }
+\hline
+ P & Q & $P \lor Q$ \\ 
+ \hline
+ V & V & F \\  
+ V & F & V \\  
+ F & V & V \\  
+ F & F & F \\
+ \hline
+\end{tabular}
+\end{center}
 
 O último operador que veremos é a \textbf{negação}. Ela inverte a condição da proposição onde é aplicada. Seu símbolo é o "$\sim$"\footnote{Existem outras representações desse operador: $\lnot$ , $\veebar$ , $\dot\lor$}, ou seja, se uma proposição é verdadeira, ao aplicarmos a negação à ela, tornamos essa proposição falsa. A tabela-verdade desse operador é bem simples.
 
@@ -91,11 +107,11 @@ Podemos ainda combinar proposições de outra maneira. Sejam as proposições $P
 \end{tabular}
 \end{center}
 
-\textbf{Dica}: Nessa parte do livro o professor coloca bastante esforço em explicar esse conceito. Se você não conseguir entender essa tabela-verdade acima, recomendo dar uma lida seção que começa na página 42.
+\textbf{Dica}: Nessa parte do livro o professor coloca bastante esforço em explicar esse conceito. Se você não conseguir entender essa tabela-verdade acima, recomendamos a leitura da seção que começa na página 42.
 
 \section{Proposições Bicondicionais}
 
-Existem situações onde duas proposições são mutuamente condicionais, ou seja, $P \implies Q$ e $Q \implies P$. Nesses casos usamos o conectivo "se e somente se" cujo símbolo é "$\iff$".  A tabela-verdade segue abaixo.
+Existem situações onde duas proposições são mutuamente condicionais, ou seja, $P \implies Q$ e $Q \implies P$. Nesses casos usamos o conectivo "se e somente se"\ cujo símbolo é "$\iff$".  A tabela-verdade segue abaixo.
 
 \begin{center}
 \begin{tabular}{ | c c || c | }
@@ -117,7 +133,7 @@ Existem situações onde duas proposições são mutuamente condicionais, ou sej
 
 Agora que você sabe as tabelas-verdade de $\land$,$\lor$,$\sim$,$\implies$ e $\iff$, você deve internalizá-las de modo a serem muito naturais ao avaliar a validade de uma proposição cuja construção utilize esses operadores.
 \\~\\
-Vamos trabalhar uma proposição composta que expressa a seguinte situação: Dadas duas proposições $P$ e $Q$, somente uma delas é verdadeira mas não ambas. Não existe um operador que nos permita construir uma proposição apenas com um único símbolo. Para podermos construir tal proposição temos que combinar nossos operadores do seguinte modo:
+Vamos trabalhar uma proposição composta que expressa a seguinte situação: Dadas duas proposições $P$ e $Q$, somente uma delas é verdadeira mas não ambas. Não existe um operador que nos permita construir uma proposição apenas com um único símbolo\footnote{Será mesmo?}. Para podermos construir tal proposição temos que combinar nossos operadores do seguinte modo:
 
 \begin{center}
 	$(P \lor Q) \ \land \ \sim (P \land Q)$
@@ -140,7 +156,11 @@ A tabela-verdade dessa proposição é a seguinte:
 \end{tabular}
 \end{center}
 
-Calma. É bem mais tranquilo do que parece. Vamos analisar essa tabela por partes. Nas primeiras duas colunas temos as proposições iniciais $P$ e $Q$. Nas linhas estão as situações onde testamos o que acontece quando elas são verdadeiras ou falsas. Na segunda parte temos as proposições compostas por $\lor$ e $\land$ (que você já conhece a tabela-verdade). Na parte 3 temos apenas a negação da coluna $(P \land Q)$. Se criarmos mais duas proposições do tipo $Z : (P \lor Q)$ e $W : \  \sim(P \land Q)$. Podemos reduzir a última coluna como a tabela-verdade abaixo:
+Calma. É bem mais tranquilo do que parece. Vamos analisar essa tabela por partes. Nas primeiras duas colunas temos as proposições iniciais $P$ e $Q$. Nas linhas estão as situações onde testamos o que acontece quando elas são verdadeiras ou falsas.
+\\~\\
+Na segunda parte temos as proposições compostas por $\lor$ e $\land$ (que você já conhece a tabela-verdade).
+\\~\\
+Na parte 3 temos apenas a negação da coluna $(P \land Q)$. Se criarmos mais duas proposições do tipo $Z : (P \lor Q)$ e $W : \  \sim(P \land Q)$. Podemos reduzir a última coluna como a tabela-verdade abaixo:
 
 \begin{center}
 \begin{tabular}{ | c c || c c || c | }
@@ -157,13 +177,13 @@ Calma. É bem mais tranquilo do que parece. Vamos analisar essa tabela por parte
 
 Que é exatamente igual à última coluna da tabela-verdade anterior. Portanto, nossa proposição é verdadeira exatamente quando $P$ ou $Q$ são verdadeiros mas não quando ambos são verdadeiros. Parabéns por ter entendido até aqui!
 \\~\\
-\textbf{Comentário}: Eu peguei esse exemplo direto do livro. Contudo, eu pensei um pouco e uma equivalência a essa proposição composta (bem mais simples) seria $\sim(P \iff Q)$\footnote{Você consegue ver isso?}.
+\textbf{Comentário}: Eu peguei esse exemplo direto do livro, contudo, eu pensei um pouco e uma equivalência a essa proposição composta (bem mais simples) seria $\sim(P \iff Q)$\footnote{Você consegue ver isso?}. Uma terceira observação dessa passagem me fez perceber que é exatamente a tabela-verdade do "ou exclusivo"\ $\oplus$. 
 
 \section{Equivalência Lógica}
 
 Nesse meu comentário acima já vemos um exemplo de equivalência lógica. Quando temos tabelas-verdade iguais para proposições diferentes. Podemos dizer que elas são \textbf{logicamente equivalentes}.
 \\~\\
-Esse conceito é importante porque podemos trabalhar o mesmo problema de diferentes abordagens e acabarmos chegando no mesmo resultado. Cada abordagem pode ter facilidades que queiramos explorar e que vão nos permitindo desenrolar o pensamento necessário para uma demonstração mais complexa.
+Esse conceito é importante porque podemos trabalhar o mesmo problema de diferentes abordagens e acabarmos chegando no mesmo resultado. Cada abordagem pode ter facilidades que desejamos explorar e que vão nos permitindo desenrolar o pensamento necessário para uma demonstração mais complexa.
 \\~\\
 Muitos teoremas matemáticos usam a forma $P \implies Q$. Mas, não raramente, precisamos usar a equivalência lógica e trabalhar com a proposição $\sim (Q) \implies \sim (P)$. Para ver essa equivalência, basta construir as tabelas-verdade das duas proposições.\footnote{Fica como dever de casa pra você.}
 \\~\\

@@ -11,19 +11,19 @@
 \contentsline {section}{\numberline {1.8}Conjuntos Indexados}{8}{section.1.8}%
 \contentsline {section}{\numberline {1.9}Conjuntos que são Sistemas Numéricos}{8}{section.1.9}%
 \contentsline {section}{\numberline {1.10}O Paradoxo de Russell}{10}{section.1.10}%
-\contentsline {chapter}{\numberline {2}Lógica}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Proposições}{12}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Operadores: e, ou, não}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Proposições Condicionais}{14}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Proposições Bicondicionais}{15}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Tabelas-Verdade para Proposições}{15}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Equivalência Lógica}{16}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Quantificadores}{18}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Um pouco mais de Proposições Condicionais}{19}{section.2.8}%
+\contentsline {chapter}{\numberline {2}Lógica}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Proposições}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Operadores: e, ou, não}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Proposições Condicionais}{13}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Proposições Bicondicionais}{14}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Tabelas-Verdade para Proposições}{14}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Equivalência Lógica}{15}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Quantificadores}{17}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Um pouco mais de Proposições Condicionais}{18}{section.2.8}%
 \contentsline {section}{\numberline {2.9}Traduzindo Português para Lógica Simbólica}{19}{section.2.9}%
-\contentsline {section}{\numberline {2.10}Negando Proposições}{21}{section.2.10}%
-\contentsline {section}{\numberline {2.11}Inferência Lógica}{22}{section.2.11}%
-\contentsline {section}{\numberline {2.12}Nota Importante}{22}{section.2.12}%
+\contentsline {section}{\numberline {2.10}Negando Proposições}{20}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Inferência Lógica}{21}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Nota Importante}{21}{section.2.12}%
 \contentsline {chapter}{\numberline {3}Contagem}{23}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Listas}{23}{section.3.1}%
 \contentsline {section}{\numberline {3.2}O Princípio da Multiplicação}{24}{section.3.2}%
