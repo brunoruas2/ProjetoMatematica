@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.11)  28 JUN 2022 13:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.11)  29 JUN 2022 09:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1135,9 +1135,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--191
  []
 
 [15]
-Overfull \hbox (1.25827pt too wide) in paragraph at lines 239--240
+Overfull \hbox (6.79378pt too wide) in paragraph at lines 239--240
 []\T1/lmr/bx/n/10.95 Comentário\T1/lmr/m/n/10.95 : Como são mui-tas equi-va-lên
--cias, se eu co-lo-car to-das as tabelas-
+-cias, se co-lo-car-mos to-das as tabelas-
  []
 
 [16]
@@ -1176,83 +1176,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--284
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--298
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--298
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--298
+Underfull \hbox (badness 10000) in paragraph at lines 286--289
 
  []
 
 [18]
-Overfull \hbox (24.2529pt too wide) detected at line 305
+Underfull \hbox (badness 10000) in paragraph at lines 293--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--299
+
+ []
+
+
+Overfull \hbox (24.2529pt too wide) detected at line 306
 []  \OT1/lmr/m/n/10.95 =[]\OMS/lmsy/m/n/10.95 )  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--313
+Underfull \hbox (badness 10000) in paragraph at lines 310--314
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--313
+Underfull \hbox (badness 10000) in paragraph at lines 310--314
 
  []
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 324.
+LaTeX Warning: Command \' invalid in math mode on input line 325.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--327
+Underfull \hbox (badness 10000) in paragraph at lines 323--328
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 335--338
+Underfull \hbox (badness 10000) in paragraph at lines 336--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--346
+Underfull \hbox (badness 10000) in paragraph at lines 342--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--346
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 350--355
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 350--355
+Underfull \hbox (badness 10000) in paragraph at lines 342--347
 
  []
 
 [20]
+Underfull \hbox (badness 10000) in paragraph at lines 351--356
 
-LaTeX Warning: Command \c invalid in math mode on input line 365.
-
-
-LaTeX Warning: Command \~ invalid in math mode on input line 365.
+ []
 
 
-LaTeX Warning: Command \c invalid in math mode on input line 365.
+Underfull \hbox (badness 10000) in paragraph at lines 351--356
+
+ []
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 365.
+LaTeX Warning: Command \c invalid in math mode on input line 366.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--375
+LaTeX Warning: Command \~ invalid in math mode on input line 366.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 366.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 366.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--376
 
  []
 
@@ -2019,7 +2023,7 @@ no/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb
 ols/msam7.pfb><C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb><C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/rsfs/rsfs10.pfb>
-Output written on book_of_proof.pdf (69 pages, 743606 bytes).
+Output written on book_of_proof.pdf (69 pages, 743705 bytes).
 PDF statistics:
  1013 PDF objects out of 1200 (max. 8388607)
  231 named destinations out of 1000 (max. 500000)

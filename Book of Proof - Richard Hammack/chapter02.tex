@@ -185,7 +185,7 @@ Nesse meu comentário acima já vemos um exemplo de equivalência lógica. Quand
 \\~\\
 Esse conceito é importante porque podemos trabalhar o mesmo problema de diferentes abordagens e acabarmos chegando no mesmo resultado. Cada abordagem pode ter facilidades que desejamos explorar e que vão nos permitindo desenrolar o pensamento necessário para uma demonstração mais complexa.
 \\~\\
-Muitos teoremas matemáticos usam a forma $P \implies Q$. Mas, não raramente, precisamos usar a equivalência lógica e trabalhar com a proposição $\sim (Q) \implies \sim (P)$. Para ver essa equivalência, basta construir as tabelas-verdade das duas proposições.\footnote{Fica como dever de casa pra você.}
+Muitos teoremas matemáticos usam a forma $P \implies Q$ mas, não raramente, precisamos usar a equivalência lógica e trabalhar com a proposição $\sim (Q) \implies \sim (P)$. Para ver essa equivalência, basta construir as tabelas-verdade das duas proposições.\footnote{Fica como dever de casa pra você.}
 \\~\\
 Existem equivalências que são tão importantes que possuem um nome particular. As duas abaixo são chamadas de Lei de DeMorgan.
 
@@ -236,7 +236,7 @@ Nessa parte o professor elenca várias equivalências que podem ser verificadas 
 \item $ P \lor (Q \lor R) = (P \lor Q) \lor R $ - Lei Associativa 2
 \end{itemize}
 
-\textbf{Comentário}: Como são muitas equivalências, se eu colocar todas as tabelas-verdade aqui vai ficar uma poluição muito grande. Então cabe a você demonstrar todas essas equivalências por conta própria. Não confie só porque está escrito ai. Demonstre com seu próprio esforço todas elas.
+\textbf{Comentário}: Como são muitas equivalências, se colocarmos todas as tabelas-verdade aqui a seção ficaria muito dilatada e tornaria a didática do material menos efetiva. Então cabe a você demonstrar todas essas equivalências por conta própria. Não confie só porque está escrito ai. Demonstre com seu próprio esforço todas elas.
 
 \section{Quantificadores}
 
@@ -266,7 +266,7 @@ Para superar essa dificuldade, vamos introduzir novos símbolos "$\forall$" \ e 
 \item $Z_2: \exists \ x \in X, P(x)$
 \end{itemize}
 
-Nós chamamos esses novos símbolos de \textbf{quantificadores}.\footnote{Não sei você, mas pra mim esse daria um bom nome de banda.} Esse nome é porque eles se referem a alguma propriedade da quantidade de algo. $\forall$ é chamado de \textbf{quantificador universal} e $\exists$ é chamado de \textbf{quantificador existencial}. Proposições que contenham esses símbolos são chamadas de \textbf{proposições quantificadas}.
+Nós chamamos esses novos símbolos de \textbf{quantificadores}.\footnote{Não sei você, mas pra mim esse daria um bom nome de banda.} Esse nome é dado porque eles se referem a alguma propriedade da quantidade de algo. $\forall$ é chamado de \textbf{quantificador universal} e $\exists$ é chamado de \textbf{quantificador existencial}. Proposições que contenham esses símbolos são chamadas de \textbf{proposições quantificadas}.
 \\~\\
 \textbf{Dica}: Leia o exemplo 2.5 do livro. O professor Hammack dá 4 exemplos em inglês e "traduz" \ esses exemplos para os símbolos que já aprendemos até agora.
 
@@ -278,13 +278,14 @@ Dada a sentença aberta "$x$ é par $\implies$ $x$ é múltiplo de 6". A validad
 \\~\\
 De maneira geral, dadas duas proposições $Q(x)$ e $P(x)$, a expressão $\forall \ x \in \mathbb{Z}, P(x) \implies Q(x)$ é verdadeira ou falsa. Logo, ela é uma proposição e não uma sentença aberta.
 \\~\\
-Agora chegamos no ponto importante sobre esse assunto: sempre que você ver duas proposições a respeito de uma variável que seja elemento de algum conjunto (previamente definido), uma expressão da forma $P(x) \implies Q(x)$ deve ser interpretada como sendo uma proposição do tipo $\forall \ x \in Conjunto, P(x) \implies Q(x)$. Ou seja, se uma proposição condicional não estiver quantificada explicitamente, então existe um quantificador implícito atrelado a ela. O motivo desse quantificador não aparecer é que cansa ter que ficar escrevendo toda hora "$\forall \ x \in Conjunto$".
+Agora chegamos no ponto importante sobre esse assunto: sempre que você ver duas proposições a respeito de uma variável que seja elemento de algum conjunto (previamente definido), por exemplo, uma expressão da forma $P(x) \implies Q(x)$. Devemos interpreta-la como sendo uma proposição do tipo $\forall \ x \in Conjunto, P(x) \implies Q(x)$, ou seja, se uma proposição condicional não estiver quantificada explicitamente, então existe um quantificador implícito atrelado a ela. O motivo desse quantificador não aparecer é que cansa ter que ficar escrevendo toda hora "$\forall \ x \in Conjunto$".
 \\~\\
 Agora nós vamos definir de maneira mais geral (mas consistente com o que foi dito na seção 2.1) as proposições condicionais.
 
 \begin{definition}[Proposição Condicional]
-Se $P$ e $Q$ são proposições ou sentenças abertas, então "Se $P$, então $Q$" \  será uma proposição.\\
-Essa proposição será verdadeira se for impossível que $P$ seja verdadeira enquanto $Q$ seja falsa. E será falsa se existir alguma situação onde $P$ é verdadeira e $Q$ é falsa.
+Se $P$ e $Q$ são proposições ou sentenças abertas, então "Se $P$, então $Q$" \  será uma proposição.
+\\~\\
+Essa proposição será verdadeira se for impossível que $P$ seja verdadeira enquanto $Q$ seja falsa. Também, será falsa se existir alguma situação onde $P$ é verdadeira e $Q$ é falsa.
 \end{definition}
 
 \section{Traduzindo Português para Lógica Simbólica}
@@ -334,28 +335,28 @@ $$ (x \in X) \implies Q(x) $$
 
 Essas equivalências são importantes porque podemos trocar a maneira como um teorema se apresenta na hora de tentar provar ou desprovar uma proposição.
 \\~\\
-\textbf{Aviso}: Na hora que você ler um teorema, evite ir direto para as palavras "ou", "se", "e" \ como se elas sempre significassem os seus respectivos valores lógicos. O contexto é quem diz o real significado das palavras. Sempre analise o enunciado inteiro antes de transcrever para a linguagem simbólica da lógica.
+\textbf{Comentário:} Na hora que você ler um teorema, evite ir direto para as palavras "ou", "se", "e" \ como se elas sempre significassem os seus respectivos valores lógicos. O contexto é quem diz o real significado das palavras. Sempre analise o enunciado inteiro antes de transcrever para a linguagem simbólica da lógica. Entretanto, sempre tente escrever os argumentos em linguagem simbólica.
 
 \section{Negando Proposições}
 
-Não é raro que ao tentar demonstrar uma proposição complexa $R$, por exemplo, seja mais fácil trabalhar com a negação dessa proposição $\sim R$. Mas na frente do curso você verá que essa é uma das técnicas usadas para provar teoremas.
+Não é raro que ao tentar demonstrar uma proposição complexa $R$, por exemplo, seja mais fácil trabalhar com a negação dessa proposição $\sim R$. Mais a frente do curso você verá que essa é uma das técnicas usadas para provar teoremas.
 \\~\\
-Também não é incomum termos que lidar com negações de proposições quantificadas. Considere a proposição $\sim(\forall \ x \in \mathbb{N}, P(x))$. Podemos ler como "Não é o caso que $P(x)$ é verdade para todos os $x$ números naturais". Ou seja, a negativa dessa proposição envolve outro quantificador (o de existência). De modo que podemos reescrever essa negação como $\exists \ x \in \mathbb{N},\sim P(x)$.
+Também não é incomum termos que lidar com negações de proposições quantificadas. Considere a proposição $\sim(\forall \ x \in \mathbb{N}, P(x))$ que podemos ler como "Não é o caso que $P(x)$ é verdade para todos os $x$ números naturais". Portanto, a negativa dessa proposição envolve outro quantificador (o de existência), de modo que podemos reescrever essa negação como $\exists \ x \in \mathbb{N},\sim P(x)$.
 \\~\\
 Chegamos em um ponto importante aqui. Os quantificadores são usados para negar um ao outro. Observe as seguintes equivalências:
 
 $$ \sim (\forall \ x \in X, P(x)) = \exists \ x \in X, \sim P(x) $$
 $$ \sim (\exists \ x \in X, P(x)) = \forall \ x \in X, \sim P(x) $$
 
-\textbf{Comentário}: Se você leu com atenção até aqui, você deve ser capaz de compreender essas equivalências. Se elas não fazem sentido na sua cabeça, me manda uma dm no \href{https://twitter.com/bruno_ruas2}{twitter} explicando qual a sua dúvida. Eu posso melhorar o texto com o seu feedback.
+\textbf{Comentário}: Se você leu com atenção até aqui, deve ser capaz de compreender essas equivalências. Se elas não fazem sentido na sua cabeça, me manda uma dm no \href{https://twitter.com/bruno_ruas2}{twitter} explicando qual a sua dúvida. Eu posso melhorar o texto com o seu feedback.
 \\~\\
-Quando se está escrevendo demonstrações, as vezes é necessário negar proposições condicionais $P \implies Q$. Se você aprendeu a tabela-verdade desse tipo de operador, você sabe que a única maneira de ele ser falso é quando temos $P$ verdadeiro e $Q$ falso. Em termo da lógica dizemos que $\sim (P \implies Q) = P \land \sim Q$. 
+Quando se está escrevendo demonstrações, as vezes é necessário negar proposições condicionais $P \implies Q$. Se você aprendeu a tabela-verdade desse tipo de operador, sabe que a única maneira de ele ser falso é quando temos $P$ verdadeiro e $Q$ falso. Em termo da lógica dizemos que $\sim (P \implies Q) = P \land \sim Q$. 
 \\~\\
 \textbf{Dica}: Tente fazer o exercício 5 da seção 2.10. Tem a solução dele no final do livro. Se mesmo assim você não conseguir entender, comenta sua dúvida na postagem dessa aula no \href{https://economiamainstream.com.br/artigo/matematica/}{Economia Mainstream}.
 
 \section{Inferência Lógica}
 
-A inferência lógica é o processo de se tirar conclusões dadas premissas e regras previamente estabelecidas. Existem algumas maneiras de se trabalhar esse processo de pensamento. O professor elenca 3 modos: modus ponens, modus tollens e eliminação.
+A \textbf{inferência lógica} é o processo de se tirar conclusões dadas premissas e regras previamente estabelecidas. Existem algumas maneiras de se trabalhar esse processo de pensamento. O professor elenca 3 modos: modus ponens, modus tollens e eliminação.
 
 \begin{align*}
 Modus \ Ponens && Modus \ Tollens && Elimina\c{c}\~{a}o \\
