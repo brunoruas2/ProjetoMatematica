@@ -55,9 +55,9 @@ Suponha que agora temos 3 conjuntos: $A_1$, $A_2$ e $A_3$. Para podermos demonst
 Aplicando esse mesmo procedimento para qualquer $m > 2$ fica demonstrado que o cardinal de quaisquer conjuntos $A_i$ para qualquer $i \in \{1,2,\dots,m\}$ será a multiplicação do cardinal dos conjuntos $A_i$. Aplicando a equivalência da proposição $P(m)$ com o princípio da multiplicação, finalizamos a demonstração. $\blacksquare$
 \end{demonstration}
 
-Existem dois tipos de problemas que envolvem contagem de listas: Problemas que possuem entradas repetidas e Problemas que não permitem entradas repetidas. Nós podemos chamar as listas do segundo tipo de problema de \textbf{listas não repetitivas}.
+Existem dois tipos de problemas que envolvem contagem de listas: Problemas que possuem entradas repetidas (como a construção de placas de carros, números de telefone e etc) e Problemas que não permitem entradas repetidas (como ordenar pessoas em uma fila). Nós podemos chamar as listas do segundo tipo de problema de \textbf{listas não repetitivas}.
 \\~\\
-Usando o princípio da multiplicação você é capaz de resolver todos os problemas envolvendo contagens de listas sem precisar ficar escrevendo as soluções possíveis, ao invés disso, você só precisa interpretar as opções de entradas na lista e usar a multiplicação.
+Usando o princípio da multiplicação você é capaz de resolver todos os problemas envolvendo contagens de listas (com e sem repetição) sem precisar ficar escrevendo as soluções possíveis, ao invés disso, você só precisa interpretar as opções de entradas na lista e usar a multiplicação.
 \\~\\
 \textbf{Dica}: Tente fazer os exemplos 3.1, 3.2 e 3.3 da página 69 até a 72.
 
@@ -69,22 +69,20 @@ Vamos ver mais dois princípios de contagem. Você já está familiarizado com e
 Suponha que um conjunto finito $X$ pode ser decomposto na união $X = \bigcup_{i = 1}^{n}\limits X_i$ onde $ X_i \cap X_j = \emptyset \ \forall \ i \neq j$. Então, $|X| = \sum_{i = 1}^{n}\limits |X_i|$.
 \end{fact}
 
-Calma. Não é difícil de entender. O que estamos dizendo ai é: "Se $X$ é um conjunto formado por $n$ outros conjuntos menores de modo que nenhum desses conjuntos possui interseção entre si. Então, o cardinal de $X$ será a soma dos cardinais de todos os $n$ subconjuntos. A única novidade nessa notação é o sigma para denominar somatório.\footnote{Já vimos essa notação no capítulo 01.}
+Calma. Não é difícil de entender. O que estamos dizendo ai é: "Se $X$ é um conjunto formado por $n$ outros conjuntos menores de modo que nenhum desses conjuntos possui interseção entre si. Então, o cardinal de $X$ será a soma dos cardinais de todos os $n$ subconjuntos. A única coise que pode assustar nessa notação é o sigma ($\sum$) para denominar somatório.\footnote{Já vimos essa notação no capítulo 01.}
 \\~\\
 \textbf{Dica}: Veja os exemplos 3.5 e 3.6 na página 75 para ter uma ideia da aplicação desses conceitos na prática.
-\\~\\
-Agora vamos ver o princípio da subtração. Você não deve ter grandes dificuldades de entender esse conceito.
 
 \begin{fact}[Princípio da Subtração]
 Se $X$ é um subconjunto de um conjunto finito $U$, então $|\overline{X}| = |U| - |X|$. Ou seja, se $X \subseteq U$, então $|U - X| = |U| - |X|$.
 \end{fact}
 
-Existem situações onde é mais fácil contar o total de um conjunto maior, e retirar uma parte desse total que não queremos, do que contar diretamente a parte desejada. Eu sei, tá um pouco confuso. Mas a ideia é simples: Usamos esse método para computar o que sobra após a retirada de algumas opções.
-
-\textbf{Dica}: Dá uma lida no exemplo 3.7 novamente. A gente usa exatamente essa abordagem pra chegar no resultado.
+Existem situações onde é mais fácil contar o total de um conjunto maior, e retirar uma parte desse total que não queremos, do que contar diretamente a parte desejada. A primeira vista pode parecer um pouco confuso mas a ideia é simples: Usamos esse método para computar o que sobra após a retirada de algumas opções.
+\\~\\
+\textbf{Dica}: Leia o exemplo 3.7 novamente. A gente usa exatamente essa abordagem pra chegar no resultado.
 
 \section{Fatoriais e Permutações}
-O processo de contagem para listas não repetitivas de tamanho $n$ é tão comum que criamos um conceito especial para lidar com esse tipo de problema. O conceito em questão é o \textbf{Fatorial} ($n!$). Antes de formalizarmos o que é o fatorial, observe o quadro abaixo.
+O processo de contagem para listas não repetitivas de tamanho $n$ é tão comum que criamos um conceito especial para lidar com esse tipo de problema. O conceito em questão é o \textbf{Fatorial} ($n!$). Antes de formalizarmos, observe o quadro abaixo.
 \\~\\
 \begin{center}
 \begin{tabular}{ | c | c | c | c | }
@@ -109,7 +107,7 @@ Se $n$ é um número inteiro não negativo, então $n!$ será o número de lista
 \\~\\
 Outro conceito importante\footnote{Que eu aposto que você viu no ensino médio e achou que nunca ia usar.} é o conceito de \textbf{Permutação}. Quando computamos um fatorial, estamos, na verdade, contando a quantidade de listas de comprimento $n$ que podem ser geradas a partir da mudança da ordem dos $n$ elementos.
 \\~\\
-\textbf{Atenção}: Guarde na memória que o \textbf{Fatorial} conta o número de \textbf{Permutações} possíveis para $n$ elementos via aplicação do \textbf{princípio da multiplicação}.
+\textbf{Comentário}: Guarde na memória que o \textbf{Fatorial} conta o número de \textbf{Permutações} possíveis para $n$ elementos via aplicação do \textbf{princípio da multiplicação}.
 \\~\\
 Agora vamos estender um pouco mais esse pensamento. Se temos um total de $n$ elementos. Uma permutação é uma lista de comprimento $n$. Mas e se não quisermos usar todos os elementos disponíveis na composição dessas listas? Para isso o autor usa o conceito de \textbf{k-permutação}\footnote{Do original: k-permutation.} (aqui no Brasil você viu esse conceito pelo nome de \textbf{Arranjo}). Uma k-permutação será uma lista de tamanho $k$ formada por um subconjunto dos $n$ elementos anteriores.
 \\~\\
@@ -159,15 +157,15 @@ Algum leitor de pensamento rápido pode pensar que se trata exatamente do mesmo 
 \\~\\
 Uma lista leva em consideração a ordem dos seus elementos, ou seja, $(a,b) \neq (b,a)$ enquanto os conjuntos só se preocupam com os valores dos seus elementos $\{a,b\} = \{b,a\}$. Para prosseguirmos vamos definir essa tarefa de "contar subconjuntos" \ usando uma notação.
 \\~\\
-\textbf{Comentário}: Estranhamente, o professor não dá um nome para o conceito que ele vai definir agora. Então nós achamos por bem usar o nome que os materiais didáticos do Brasil utilizam.
+\textbf{Comentário}: Estranhamente, o professor não dá um nome para o conceito que ele vai definir agora. Nós achamos por bem usar o nome que os materiais didáticos do Brasil utilizam.
 
 \begin{definition}[Combinação]
 Se $k,n \in \mathbb{Z}$, então $n \choose k$, ou alternativamente, $C(n,k)$, denota o número de subconjuntos que podem ser feitos escolhendo $k$ elementos de um conjunto com $n$ elementos. Lemos $n \choose k$ como "de $n$ escolhemos $k$".
 \end{definition}
 
-\textbf{Atenção}: Aqui já temos algo para guardar na mente. Se tivermos um conjunto com $n$ elementos, sempre será verdade que $P(n,k) \geqslant $ $n \choose k$ ou, na outra notação, $P(n,k) \geqslant C(n,k)$. Ou seja, sempre será verdade que os arranjos serão maiores ou iguais que as combinações para quaisquer $n$ e $k$.
+\textbf{Comentário}: Aqui já temos algo para guardar na mente. Se tivermos um conjunto com $n$ elementos, sempre será verdade que $P(n,k) \geqslant $ $n \choose k$ ou, na outra notação, $P(n,k) \geqslant C(n,k)$. Ou seja, sempre será verdade que os arranjos serão maiores ou iguais que as combinações para quaisquer $n$ e $k$.
 \\~\\
-Já definimos o que queremos dizer quando escrevemos $n \choose k$ e sabemos bem qual problema queremos responder com essa notação nova. Mas precisamos de uma fórmula que nos permita encontrar a solução de quaisquer valores de $n$ e $k$. Para tanto, vamos começar com um exemplo prático: $5 \choose 3$.
+Já definimos o que queremos dizer quando escrevemos $n \choose k$ e sabemos bem qual problema queremos responder com essa notação nova. Precisamos de uma fórmula que nos permita encontrar a solução de quaisquer valores de $n$ e $k$. Para tanto, vamos começar com um exemplo prático: $5 \choose 3$.
 \\~\\
 Nós já sabemos que se fossem listas ao invés de subconjuntos, teríamos $P(5,3) = \frac{5!}{(5 - 3)!} = 60$ listas possíveis. Também já sabemos que $P(5,3) \geqslant $ $5 \choose 3$.
 \\~\\
