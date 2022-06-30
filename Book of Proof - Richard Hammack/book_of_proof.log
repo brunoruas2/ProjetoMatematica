@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.11)  29 JUN 2022 13:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.11)  29 JUN 2022 20:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1503,17 +1503,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 214--218
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 218--222
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 222--226
 
  []
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 226.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 226--230
@@ -1521,67 +1513,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--230
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--241
+LaTeX Warning: Command \' invalid in math mode on input line 230.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--245
 
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 274--291
+Underfull \hbox (badness 10000) in paragraph at lines 278--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--291
+Underfull \hbox (badness 10000) in paragraph at lines 278--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--291
+Underfull \hbox (badness 10000) in paragraph at lines 278--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--291
+Underfull \hbox (badness 10000) in paragraph at lines 278--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--291
+Underfull \hbox (badness 10000) in paragraph at lines 278--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--291
+Underfull \hbox (badness 10000) in paragraph at lines 278--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--291
+Underfull \hbox (badness 10000) in paragraph at lines 278--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--291
+Underfull \hbox (badness 10000) in paragraph at lines 278--295
 
  []
 
 [33] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 294--307
+Underfull \hbox (badness 10000) in paragraph at lines 298--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--307
+Underfull \hbox (badness 10000) in paragraph at lines 298--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--307
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--311
+Underfull \hbox (badness 10000) in paragraph at lines 298--311
 
  []
 
@@ -1591,98 +1586,108 @@ Underfull \hbox (badness 10000) in paragraph at lines 311--315
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--320
+Underfull \hbox (badness 10000) in paragraph at lines 315--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--324
 
  []
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 333--336
+Underfull \hbox (badness 10000) in paragraph at lines 337--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
+Underfull \hbox (badness 10000) in paragraph at lines 363--365
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--365
-
- []
-
-[36]
 Underfull \hbox (badness 10000) in paragraph at lines 365--369
 
  []
 
-
+[36]
 Underfull \hbox (badness 10000) in paragraph at lines 369--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--382
+Underfull \hbox (badness 10000) in paragraph at lines 373--377
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--387
+Underfull \hbox (badness 10000) in paragraph at lines 383--386
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--391
 
  []
 
 [37]
-Underfull \hbox (badness 10000) in paragraph at lines 416--421
+Underfull \hbox (badness 10000) in paragraph at lines 408--412
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--421
+Underfull \hbox (badness 10000) in paragraph at lines 420--425
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--425
 
  []
 
 [38]
-Underfull \hbox (badness 10000) in paragraph at lines 426--433
+Underfull \hbox (badness 10000) in paragraph at lines 430--437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--433
+Underfull \hbox (badness 10000) in paragraph at lines 430--437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--433
+Underfull \hbox (badness 10000) in paragraph at lines 430--437
 
  []
 
 
-Overfull \hbox (2.90733pt too wide) in paragraph at lines 426--433
+Overfull \hbox (2.90733pt too wide) in paragraph at lines 430--437
 \T1/lmr/m/n/10.95 Vamos usar a pa-la-vra "ba-nana"como exem-plo, se ig-no-rar-m
 os os que "a"repete-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--440
+Underfull \hbox (badness 10000) in paragraph at lines 441--444
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--453
+Underfull \hbox (badness 10000) in paragraph at lines 452--457
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--453
+Underfull \hbox (badness 10000) in paragraph at lines 452--457
 
  []
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 456--461
+Underfull \hbox (badness 10000) in paragraph at lines 460--465
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--461
+Underfull \hbox (badness 10000) in paragraph at lines 460--465
 
  []
 
@@ -1979,13 +1984,13 @@ Package rerunfilecheck Info: File `book_of_proof.out' has not changed.
 (rerunfilecheck)             Checksum: FE8194C4A2E60FD332C6A41E3B1D32EC;11789.
  ) 
 Here is how much of TeX's memory you used:
- 24648 strings out of 478582
- 461135 string characters out of 2844344
+ 24652 strings out of 478582
+ 461183 string characters out of 2844344
  739646 words of memory out of 3000000
  42108 multiletter control sequences out of 15000+600000
  566578 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,80p,1295b,868s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,13n,80p,1296b,868s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
 c}{C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.en
 c}{C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
@@ -2023,9 +2028,9 @@ no/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb
 ols/msam7.pfb><C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb><C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/rsfs/rsfs10.pfb>
-Output written on book_of_proof.pdf (69 pages, 743751 bytes).
+Output written on book_of_proof.pdf (69 pages, 746017 bytes).
 PDF statistics:
- 1013 PDF objects out of 1200 (max. 8388607)
- 231 named destinations out of 1000 (max. 500000)
+ 1022 PDF objects out of 1200 (max. 8388607)
+ 235 named destinations out of 1000 (max. 500000)
  549 words of extra memory for PDF output out of 10000 (max. 10000000)
 
