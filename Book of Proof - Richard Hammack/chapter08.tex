@@ -18,4 +18,26 @@ Para provar que um $x \in A$ temos que mostrar que $x$ satisfaz a condição $P(
 \textbf{Exemplo:} Prove que $x \in A$ para $x = 5$ onde $A = \lbrace x \in \mathbb{N}: x > 4\rbrace$.
 \textit{Prova:} Dados dois números $a$ e $b$, $a \geq b$ se, e somente se, $a - b > 0$. Supondo que $5 \leq 4$ então $5 - 4 \leq 0$, o que claramente é um absurdo. $\blacksquare$
 
+\section{Como provar que $A \subset B$}
+Acabamos de ver como provar que um elemento faz parte de um conjunto o que é bem simples. Porém, como provar que um conjunto é subconjunto de outro? Ainda sim, muito simples.
+\par
+
+Vamos relembrar que $A$ é um subconjunto de $B$ se todo elemento de $A$ é também elemento de $B$. Em notação matemática:
+$$A \subset B \Leftrightarrow \forall a \in A, a \in B$$
+Sabendo que o conjunto $A$ é determinado por uma sentença qualquer $P(x)$ e o conjunto $B$ por uma sentença qualquer $Q(x)$, $A \in B \Leftrightarrow [P(x) \Rightarrow Q(x)]$, é importante lembrar que a recíproca não precisa ser verdadeira, já que se dadas todas as condições $B$ é pelo menos tão grande quanto $A$, ou seja, existem elementos em $B$ que não satisfazem $P(x)$.
+\\
+
+Então, para provarmos precisamos mostrar que se $x$ satisfaz $P(x)$ também o faz com $Q(x)$, isso para todo $\in A$.
+
+\textbf{Exemplo: } Seja $A = \lbrace x \in \mathbb{N} : 2|x \rbrace$, e $B = \lbrace x \in \mathbb{N} : x^n = 2a \forall a,n \in \mathbb{Z}$. Prove que $A \subset B$:
+\\
+\textit{Prova:} Se 2 é divisir de $x$ como a primeira sentença determina então $x = 2b, \forall b \in \mathbb{Z}$, ou seja, é um número par. Supondo que existe $n$ tal que $x^n = 2a + 1$ teremos que:
+$$(2b)^n = (2b)_1(2b)_2 \dots (2b_n) = 2a + 1$$
+Porém se assumirmos que $c = 2^{n-1}b^n$, então podemos reescrever $(2b)^n = 2c$, isso implicaria que:
+$$2c = 2a + 1$$
+
+A dúvida que fica: Existe $a$ inteiro que torne isso possível? Bom, não, observe que:
+$$ a  = \frac{2c -  1}{2} = c - \frac{1}{2}$$
+
+Porém $c$ é um número inteiro qualquer, então $a \not\in \mathbb{Z}$, o que contradiz a definição do conjunto $B$. Logo, $A \in B$. $\blacksquare$
 \end{document}
