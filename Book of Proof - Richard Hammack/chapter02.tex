@@ -7,9 +7,9 @@
 
 \section{Proposições}
 
-O estudo da lógica começa com as proposições. Uma \textbf{proposição} é uma sentença ou expressão matemática que seja definitivamente verdadeira ou falsa. Em cima dessas proposições é que aplicamos a lógica para produção de novas proposições. Qualquer resultado ou teorema provado é, na verdade, uma proposição\footnote{Isso inclui o teorema de Pitágoras, por exemplo.}. 
+Uma \textbf{proposição} é uma sentença, que pode ser escrita ou uma expressão matemática, que seja definitivamente verdadeira ou falsa. Em cima dessas proposições é que aplicamos a lógica para produção de novas proposições. Qualquer resultado ou teorema provado é, na verdade, uma proposição\footnote{Isso inclui o teorema de Pitágoras, por exemplo.}. O estudo da lógica começa a partir das proposições.
 \\~\\
-\textbf{Aviso}: Ao longo desse capítulo a palavra "proposição" \ vai ser repetida muitas vezes. Essa repetição é proposital. Eu quero que você internalize a importância desse conceito para a análise matemática.
+\textbf{Comentário:} Ao longo desse capítulo a palavra "proposição" \ vai ser repetida muitas vezes. Essa repetição é proposital. Queremos que você internalize a importância desse conceito para a análise matemática.
 \\~\\
 Podemos usar letras para nomear proposições. Por exemplo, a proposição "Se um número $x$ é múltiplo de 6, então $x$ é par" \  pode ser resumida em uma letra. Nesse caso diremos que "$P$" \ é a proposição acima. Dessa feita, sempre que dissermos $P$ é falso ou $P$ é verdadeiro, estamos nos referindo a proposição completa.
 \\~\\
@@ -17,13 +17,13 @@ Quando uma proposição possuir variáveis, podemos escreve-la de uma maneira si
 \\~\\
 Uma \textbf{sentença aberta} é uma proposição cuja validade depende da sua variável. Ou seja, dependendo do valor que você der para a variável, a proposição pode ser verdadeira ou falsa.
 \\~\\
-Esse livro do professor Hammack é justamente sobre o método de como se provar que uma proposição é verdade ou falsa. Existem estratégias de raciocínio que podem ser usadas para demonstrar proposições e, consequentemente, teoremas complexos. Nosso objetivo nesse curso é lhe ensinar essas técnicas.
+O livro que estamos estudando aqui trata, basicamente, sobre o método de como se provar que uma proposição é verdadeira ou falsa. Existem estratégias de raciocínio que podem ser usadas para demonstrar proposições e, consequentemente, teoremas complexos. Nosso objetivo nesse curso é lhe ensinar essas técnicas.
 
 \section{Operadores: e, ou, não}
 
 Até agora foi dito que você pode usar proposições junto à lógica para se chegar a outras proposições. Então vamos aprender como trabalhar com mais de uma proposição por meio dos \textbf{operadores lógicos}.
 \\~\\
-O primeiro operador que vamos aprender é o "$e$". Dadas as proposições $P$ e $Q$. Podemos criar uma nova proposição através desse operador. Quando escrevemos $R: P \ e \ Q$, estamos criando uma nova proposição $R$ que é composta de das duas proposições $P$ e $Q$. O símbolo usado para esse conectivo é o "$\land$". Aqui em baixo vamos colocar a tabela verdade\footnote{Se você não sabe o que são tabelas-verdades então dá uma lida nesse \href{https://www.youtube.com/watch?v=hWEZsyF3ZZc}{link}.} desse operador\footnote{"V" \ significa Verdadeiro e "F" \  significa Falso.}.
+O primeiro operador que vamos aprender é o "$e$". Dadas as proposições $P$ e $Q$. Podemos criar uma nova proposição através desse operador. Quando escrevemos "$R: P \ e \ Q$", estamos criando uma nova proposição $R$ que é composta de das duas proposições $P$ e $Q$. O símbolo usado para esse conectivo é o "$\land$". Aqui em baixo vamos colocar a tabela verdade\footnote{Se você não sabe o que são tabelas-verdades então dá uma lida nesse \href{https://www.youtube.com/watch?v=hWEZsyF3ZZc}{link}.} desse operador\footnote{"V" \ significa Verdadeiro e "F" \  significa Falso.}.
 
 \begin{center}
 \begin{tabular}{| c c || c | }
@@ -38,7 +38,8 @@ O primeiro operador que vamos aprender é o "$e$". Dadas as proposições $P$ e 
 \end{tabular}
 \end{center}
 
-Outro operador lógico clássico é o "ou". O símbolo dele é o "$\lor$". Eu sei, parece muito com o símbolo do "e" \ mas a  gente não pode fazer nada a não ser decorar bem a distinção entre esses dois símbolos. A tabela-verdade do "ou" \ segue abaixo.
+Outro operador lógico clássico é o "ou". O símbolo dele é o "$\lor$". Eu sei, parece muito com o símbolo do "e"\ mas a  gente não pode fazer nada a não ser decorar\footnote{Uma dica é usar o sentido do sinal: A letra "e"\ está "acima"\ ($\land$) da letra "o"\ ($\lor$).} bem a distinção entre esses dois símbolos. A tabela-verdade do "ou"\ segue abaixo.
+
 
 \begin{center}
 \begin{tabular}{ | c c || c | }
@@ -53,13 +54,28 @@ Outro operador lógico clássico é o "ou". O símbolo dele é o "$\lor$". Eu se
 \end{tabular}
 \end{center}
 
-\textbf{Atenção}: O significado da palavra "ou" \ na linguagem do dia a dia é diferente do significado empregado no contexto da lógica. Quando usamos o conectivo "ou" \ na lógica, fica implícita a possibilidade de ambas as proposições sejam verdadeiras ao mesmo tempo. Para as situações onde queremos que apenas uma proposição seja aceita mas não ambas, usamos um "ou exclusivo"\footnote{O símbolo desse é o "$\oplus$".} \ dos seguintes modos: 
+O significado da palavra "ou"\ na linguagem do dia a dia é diferente do significado empregado no contexto da lógica. Quando usamos o conectivo "ou"\ na lógica, fica implícita a possibilidade de ambas as proposições sejam verdadeiras ao mesmo tempo. Para as situações onde queremos que apenas uma proposição seja aceita mas não ambas, usamos um "ou exclusivo", cujo símbolo é o "$\oplus$", dos seguintes modos: 
 
 \begin{itemize}
 \item ou $P$ ou $Q$
 \item $P$ ou $Q$, mas não ambos
 \item Exatamente um de $P$ ou $Q$
 \end{itemize}
+
+A tabela-verdade desse conectivo é apresetada abaixo.
+
+\begin{center}
+\begin{tabular}{ | c c || c | }
+\hline
+ P & Q & $P \lor Q$ \\ 
+ \hline
+ V & V & F \\  
+ V & F & V \\  
+ F & V & V \\  
+ F & F & F \\
+ \hline
+\end{tabular}
+\end{center}
 
 O último operador que veremos é a \textbf{negação}. Ela inverte a condição da proposição onde é aplicada. Seu símbolo é o "$\sim$"\footnote{Existem outras representações desse operador: $\lnot$ , $\veebar$ , $\dot\lor$}, ou seja, se uma proposição é verdadeira, ao aplicarmos a negação à ela, tornamos essa proposição falsa. A tabela-verdade desse operador é bem simples.
 
@@ -91,11 +107,11 @@ Podemos ainda combinar proposições de outra maneira. Sejam as proposições $P
 \end{tabular}
 \end{center}
 
-\textbf{Dica}: Nessa parte do livro o professor coloca bastante esforço em explicar esse conceito. Se você não conseguir entender essa tabela-verdade acima, recomendo dar uma lida seção que começa na página 42.
+\textbf{Dica}: Nessa parte do livro o professor coloca bastante esforço em explicar esse conceito. Se você não conseguir entender essa tabela-verdade acima, recomendamos a leitura da seção que começa na página 42.
 
 \section{Proposições Bicondicionais}
 
-Existem situações onde duas proposições são mutuamente condicionais, ou seja, $P \implies Q$ e $Q \implies P$. Nesses casos usamos o conectivo "se e somente se" cujo símbolo é "$\iff$".  A tabela-verdade segue abaixo.
+Existem situações onde duas proposições são mutuamente condicionais, ou seja, $P \implies Q$ e $Q \implies P$. Nesses casos usamos o conectivo "se e somente se"\ cujo símbolo é "$\iff$".  A tabela-verdade segue abaixo.
 
 \begin{center}
 \begin{tabular}{ | c c || c | }
@@ -117,7 +133,7 @@ Existem situações onde duas proposições são mutuamente condicionais, ou sej
 
 Agora que você sabe as tabelas-verdade de $\land$,$\lor$,$\sim$,$\implies$ e $\iff$, você deve internalizá-las de modo a serem muito naturais ao avaliar a validade de uma proposição cuja construção utilize esses operadores.
 \\~\\
-Vamos trabalhar uma proposição composta que expressa a seguinte situação: Dadas duas proposições $P$ e $Q$, somente uma delas é verdadeira mas não ambas. Não existe um operador que nos permita construir uma proposição apenas com um único símbolo. Para podermos construir tal proposição temos que combinar nossos operadores do seguinte modo:
+Vamos trabalhar uma proposição composta que expressa a seguinte situação: Dadas duas proposições $P$ e $Q$, somente uma delas é verdadeira mas não ambas. Não existe um operador que nos permita construir uma proposição apenas com um único símbolo\footnote{Será mesmo?}. Para podermos construir tal proposição temos que combinar nossos operadores do seguinte modo:
 
 \begin{center}
 	$(P \lor Q) \ \land \ \sim (P \land Q)$
@@ -140,7 +156,11 @@ A tabela-verdade dessa proposição é a seguinte:
 \end{tabular}
 \end{center}
 
-Calma. É bem mais tranquilo do que parece. Vamos analisar essa tabela por partes. Nas primeiras duas colunas temos as proposições iniciais $P$ e $Q$. Nas linhas estão as situações onde testamos o que acontece quando elas são verdadeiras ou falsas. Na segunda parte temos as proposições compostas por $\lor$ e $\land$ (que você já conhece a tabela-verdade). Na parte 3 temos apenas a negação da coluna $(P \land Q)$. Se criarmos mais duas proposições do tipo $Z : (P \lor Q)$ e $W : \  \sim(P \land Q)$. Podemos reduzir a última coluna como a tabela-verdade abaixo:
+Calma. É bem mais tranquilo do que parece. Vamos analisar essa tabela por partes. Nas primeiras duas colunas temos as proposições iniciais $P$ e $Q$. Nas linhas estão as situações onde testamos o que acontece quando elas são verdadeiras ou falsas.
+\\~\\
+Na segunda parte temos as proposições compostas por $\lor$ e $\land$ (que você já conhece a tabela-verdade).
+\\~\\
+Na parte 3 temos apenas a negação da coluna $(P \land Q)$. Se criarmos mais duas proposições do tipo $Z : (P \lor Q)$ e $W : \  \sim(P \land Q)$. Podemos reduzir a última coluna como a tabela-verdade abaixo:
 
 \begin{center}
 \begin{tabular}{ | c c || c c || c | }
@@ -157,15 +177,15 @@ Calma. É bem mais tranquilo do que parece. Vamos analisar essa tabela por parte
 
 Que é exatamente igual à última coluna da tabela-verdade anterior. Portanto, nossa proposição é verdadeira exatamente quando $P$ ou $Q$ são verdadeiros mas não quando ambos são verdadeiros. Parabéns por ter entendido até aqui!
 \\~\\
-\textbf{Comentário}: Eu peguei esse exemplo direto do livro. Contudo, eu pensei um pouco e uma equivalência a essa proposição composta (bem mais simples) seria $\sim(P \iff Q)$\footnote{Você consegue ver isso?}.
+\textbf{Comentário}: Eu peguei esse exemplo direto do livro, contudo, eu pensei um pouco e uma equivalência a essa proposição composta (bem mais simples) seria $\sim(P \iff Q)$\footnote{Você consegue ver isso?}. Uma terceira observação dessa passagem me fez perceber que é exatamente a tabela-verdade do "ou exclusivo"\ $\oplus$. 
 
 \section{Equivalência Lógica}
 
 Nesse meu comentário acima já vemos um exemplo de equivalência lógica. Quando temos tabelas-verdade iguais para proposições diferentes. Podemos dizer que elas são \textbf{logicamente equivalentes}.
 \\~\\
-Esse conceito é importante porque podemos trabalhar o mesmo problema de diferentes abordagens e acabarmos chegando no mesmo resultado. Cada abordagem pode ter facilidades que queiramos explorar e que vão nos permitindo desenrolar o pensamento necessário para uma demonstração mais complexa.
+Esse conceito é importante porque podemos trabalhar o mesmo problema de diferentes abordagens e acabarmos chegando no mesmo resultado. Cada abordagem pode ter facilidades que desejamos explorar e que vão nos permitindo desenrolar o pensamento necessário para uma demonstração mais complexa.
 \\~\\
-Muitos teoremas matemáticos usam a forma $P \implies Q$. Mas, não raramente, precisamos usar a equivalência lógica e trabalhar com a proposição $\sim (Q) \implies \sim (P)$. Para ver essa equivalência, basta construir as tabelas-verdade das duas proposições.\footnote{Fica como dever de casa pra você.}
+Muitos teoremas matemáticos usam a forma $P \implies Q$ mas, não raramente, precisamos usar a equivalência lógica e trabalhar com a proposição $\sim (Q) \implies \sim (P)$. Para ver essa equivalência, basta construir as tabelas-verdade das duas proposições.\footnote{Fica como dever de casa pra você.}
 \\~\\
 Existem equivalências que são tão importantes que possuem um nome particular. As duas abaixo são chamadas de Lei de DeMorgan.
 
@@ -216,7 +236,7 @@ Nessa parte o professor elenca várias equivalências que podem ser verificadas 
 \item $ P \lor (Q \lor R) = (P \lor Q) \lor R $ - Lei Associativa 2
 \end{itemize}
 
-\textbf{Comentário}: Como são muitas equivalências, se eu colocar todas as tabelas-verdade aqui vai ficar uma poluição muito grande. Então cabe a você demonstrar todas essas equivalências por conta própria. Não confie só porque está escrito ai. Demonstre com seu próprio esforço todas elas.
+\textbf{Comentário}: Como são muitas equivalências, se colocarmos todas as tabelas-verdade aqui a seção ficaria muito dilatada e tornaria a didática do material menos efetiva. Então cabe a você demonstrar todas essas equivalências por conta própria. Não confie só porque está escrito ai. Demonstre com seu próprio esforço todas elas.
 
 \section{Quantificadores}
 
@@ -246,7 +266,7 @@ Para superar essa dificuldade, vamos introduzir novos símbolos "$\forall$" \ e 
 \item $Z_2: \exists \ x \in X, P(x)$
 \end{itemize}
 
-Nós chamamos esses novos símbolos de \textbf{quantificadores}.\footnote{Não sei você, mas pra mim esse daria um bom nome de banda.} Esse nome é porque eles se referem a alguma propriedade da quantidade de algo. $\forall$ é chamado de \textbf{quantificador universal} e $\exists$ é chamado de \textbf{quantificador existencial}. Proposições que contenham esses símbolos são chamadas de \textbf{proposições quantificadas}.
+Nós chamamos esses novos símbolos de \textbf{quantificadores}.\footnote{Não sei você, mas pra mim esse daria um bom nome de banda.} Esse nome é dado porque eles se referem a alguma propriedade da quantidade de algo. $\forall$ é chamado de \textbf{quantificador universal} e $\exists$ é chamado de \textbf{quantificador existencial}. Proposições que contenham esses símbolos são chamadas de \textbf{proposições quantificadas}.
 \\~\\
 \textbf{Dica}: Leia o exemplo 2.5 do livro. O professor Hammack dá 4 exemplos em inglês e "traduz" \ esses exemplos para os símbolos que já aprendemos até agora.
 
@@ -258,13 +278,14 @@ Dada a sentença aberta "$x$ é par $\implies$ $x$ é múltiplo de 6". A validad
 \\~\\
 De maneira geral, dadas duas proposições $Q(x)$ e $P(x)$, a expressão $\forall \ x \in \mathbb{Z}, P(x) \implies Q(x)$ é verdadeira ou falsa. Logo, ela é uma proposição e não uma sentença aberta.
 \\~\\
-Agora chegamos no ponto importante sobre esse assunto: sempre que você ver duas proposições a respeito de uma variável que seja elemento de algum conjunto (previamente definido), uma expressão da forma $P(x) \implies Q(x)$ deve ser interpretada como sendo uma proposição do tipo $\forall \ x \in Conjunto, P(x) \implies Q(x)$. Ou seja, se uma proposição condicional não estiver quantificada explicitamente, então existe um quantificador implícito atrelado a ela. O motivo desse quantificador não aparecer é que cansa ter que ficar escrevendo toda hora "$\forall \ x \in Conjunto$".
+Agora chegamos no ponto importante sobre esse assunto: sempre que você ver duas proposições a respeito de uma variável que seja elemento de algum conjunto (previamente definido), por exemplo, uma expressão da forma $P(x) \implies Q(x)$. Devemos interpreta-la como sendo uma proposição do tipo $\forall \ x \in Conjunto, P(x) \implies Q(x)$, ou seja, se uma proposição condicional não estiver quantificada explicitamente, então existe um quantificador implícito atrelado a ela. O motivo desse quantificador não aparecer é que cansa ter que ficar escrevendo toda hora "$\forall \ x \in Conjunto$".
 \\~\\
 Agora nós vamos definir de maneira mais geral (mas consistente com o que foi dito na seção 2.1) as proposições condicionais.
 
 \begin{definition}[Proposição Condicional]
-Se $P$ e $Q$ são proposições ou sentenças abertas, então "Se $P$, então $Q$" \  será uma proposição.\\
-Essa proposição será verdadeira se for impossível que $P$ seja verdadeira enquanto $Q$ seja falsa. E será falsa se existir alguma situação onde $P$ é verdadeira e $Q$ é falsa.
+Se $P$ e $Q$ são proposições ou sentenças abertas, então "Se $P$, então $Q$" \  será uma proposição.
+\\~\\
+Essa proposição será verdadeira se for impossível que $P$ seja verdadeira enquanto $Q$ seja falsa. Também, será falsa se existir alguma situação onde $P$ é verdadeira e $Q$ é falsa.
 \end{definition}
 
 \section{Traduzindo Português para Lógica Simbólica}
@@ -314,28 +335,28 @@ $$ (x \in X) \implies Q(x) $$
 
 Essas equivalências são importantes porque podemos trocar a maneira como um teorema se apresenta na hora de tentar provar ou desprovar uma proposição.
 \\~\\
-\textbf{Aviso}: Na hora que você ler um teorema, evite ir direto para as palavras "ou", "se", "e" \ como se elas sempre significassem os seus respectivos valores lógicos. O contexto é quem diz o real significado das palavras. Sempre analise o enunciado inteiro antes de transcrever para a linguagem simbólica da lógica.
+\textbf{Comentário:} Na hora que você ler um teorema, evite ir direto para as palavras "ou", "se", "e" \ como se elas sempre significassem os seus respectivos valores lógicos. O contexto é quem diz o real significado das palavras. Sempre analise o enunciado inteiro antes de transcrever para a linguagem simbólica da lógica. Entretanto, sempre tente escrever os argumentos em linguagem simbólica.
 
 \section{Negando Proposições}
 
-Não é raro que ao tentar demonstrar uma proposição complexa $R$, por exemplo, seja mais fácil trabalhar com a negação dessa proposição $\sim R$. Mas na frente do curso você verá que essa é uma das técnicas usadas para provar teoremas.
+Não é raro que ao tentar demonstrar uma proposição complexa $R$, por exemplo, seja mais fácil trabalhar com a negação dessa proposição $\sim R$. Mais a frente do curso você verá que essa é uma das técnicas usadas para provar teoremas.
 \\~\\
-Também não é incomum termos que lidar com negações de proposições quantificadas. Considere a proposição $\sim(\forall \ x \in \mathbb{N}, P(x))$. Podemos ler como "Não é o caso que $P(x)$ é verdade para todos os $x$ números naturais". Ou seja, a negativa dessa proposição envolve outro quantificador (o de existência). De modo que podemos reescrever essa negação como $\exists \ x \in \mathbb{N},\sim P(x)$.
+Também não é incomum termos que lidar com negações de proposições quantificadas. Considere a proposição $\sim(\forall \ x \in \mathbb{N}, P(x))$ que podemos ler como "Não é o caso que $P(x)$ é verdade para todos os $x$ números naturais". Portanto, a negativa dessa proposição envolve outro quantificador (o de existência), de modo que podemos reescrever essa negação como $\exists \ x \in \mathbb{N},\sim P(x)$.
 \\~\\
 Chegamos em um ponto importante aqui. Os quantificadores são usados para negar um ao outro. Observe as seguintes equivalências:
 
 $$ \sim (\forall \ x \in X, P(x)) = \exists \ x \in X, \sim P(x) $$
 $$ \sim (\exists \ x \in X, P(x)) = \forall \ x \in X, \sim P(x) $$
 
-\textbf{Comentário}: Se você leu com atenção até aqui, você deve ser capaz de compreender essas equivalências. Se elas não fazem sentido na sua cabeça, me manda uma dm no \href{https://twitter.com/bruno_ruas2}{twitter} explicando qual a sua dúvida. Eu posso melhorar o texto com o seu feedback.
+\textbf{Comentário}: Se você leu com atenção até aqui, deve ser capaz de compreender essas equivalências. Se elas não fazem sentido na sua cabeça, me manda uma dm no \href{https://twitter.com/bruno_ruas2}{twitter} explicando qual a sua dúvida. Eu posso melhorar o texto com o seu feedback.
 \\~\\
-Quando se está escrevendo demonstrações, as vezes é necessário negar proposições condicionais $P \implies Q$. Se você aprendeu a tabela-verdade desse tipo de operador, você sabe que a única maneira de ele ser falso é quando temos $P$ verdadeiro e $Q$ falso. Em termo da lógica dizemos que $\sim (P \implies Q) = P \land \sim Q$. 
+Quando se está escrevendo demonstrações, as vezes é necessário negar proposições condicionais $P \implies Q$. Se você aprendeu a tabela-verdade desse tipo de operador, sabe que a única maneira de ele ser falso é quando temos $P$ verdadeiro e $Q$ falso. Em termo da lógica dizemos que $\sim (P \implies Q) = P \land \sim Q$. 
 \\~\\
 \textbf{Dica}: Tente fazer o exercício 5 da seção 2.10. Tem a solução dele no final do livro. Se mesmo assim você não conseguir entender, comenta sua dúvida na postagem dessa aula no \href{https://economiamainstream.com.br/artigo/matematica/}{Economia Mainstream}.
 
 \section{Inferência Lógica}
 
-A inferência lógica é o processo de se tirar conclusões dadas premissas e regras previamente estabelecidas. Existem algumas maneiras de se trabalhar esse processo de pensamento. O professor elenca 3 modos: modus ponens, modus tollens e eliminação.
+A \textbf{inferência lógica} é o processo de se tirar conclusões dadas premissas e regras previamente estabelecidas. Existem algumas maneiras de se trabalhar esse processo de pensamento. O professor elenca 3 modos: modus ponens, modus tollens e eliminação.
 
 \begin{align*}
 Modus \ Ponens && Modus \ Tollens && Elimina\c{c}\~{a}o \\
