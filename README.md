@@ -1,8 +1,10 @@
 # Projeto Matemática
  Repositório Oficial do Projeto Matemática no [Economia Mainstream](https://www.economiamainstream.com.br)
 
+O livro com o resumo/tradução pode ser encontrado nesse link: https://github.com/brunoruas2/ProjetoMatematica/blob/main/Book%20of%20Proof%20-%20Richard%20Hammack/book_of_proof.pdf
+
 ## Melhorias Em Desenvolvimento
-- [ ] Conversor LaTeX-HTML
+- [x] Conversor LaTeX-HTML
 
 ## Fase 01 - Fundamentos
 ### Resumo de Livro: Book of Proof - Richard Hammack
