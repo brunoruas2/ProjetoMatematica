@@ -366,11 +366,10 @@ Sejam p, q e r proposições: \\
 \end{axioms}
 
 Os axiomas podem ser um pouco confusos e pouco intuitivos. Para que não tenhamos que lidar apenas com eles durante o processo de inferência utilizamos as \textbf{regras de inferência}.
-\par
-
+\\~\\
 Antes de falarmos sobre elas vamos formalizar o conceito de inferência lógica:
 
-\begin{definition}
+\begin{definition}[Inferência Lógica]
 Sejam $p_0, p_1, ..., p_n$ e $q$ proposições, se $q$ é uma consequência lógica de $p_0, p_1, ..., p_n$, então $p_0, p_1, ..., p_n$ inferem em $q$, denotamos por:
 $$p_0, p_1, ..., p_n \Rightarrow q$$
 \end{definition}
@@ -379,40 +378,33 @@ $$p_0, p_1, ..., p_n \Rightarrow q$$
 
 \begin{definition}[Regras de Inferência]
 Sejam P, Q, R e S fórmulas proposicionais:
-\textbf{Modus Ponens:}\\
-$P \rightarrow Q, P \Rightarrow Q$
-\\
+\\~\\
+\textbf{Modus Ponens:}
+$$P \rightarrow Q, P \Rightarrow Q$$
 
-\textbf{Modus Tolens:}\\
-$P \rightarrow Q, \sim P \Rightarrow \sim Q$
-\\
+\textbf{Modus Tolens:}
+$$P \rightarrow Q, \sim P \Rightarrow \sim Q$$
 
-\textbf{Dilemas Construtivo:}\\
-$(P \rightarrow Q) \land (R \rightarrow S), P \lor R \Rightarrow Q \lor S$
-\\
+\textbf{Dilemas Construtivo:}
+$$(P \rightarrow Q) \land (R \rightarrow S), P \lor R \Rightarrow Q \lor S $$
 
-\textbf{Dilema Destrutivo:}\\
-$(P \rightarrow Q) \land (R \rightarrow S), \sim P \lor \sim R \Rightarrow Q \lor S$
-\\
+\textbf{Dilema Destrutivo:}
+$$(P \rightarrow Q) \land (R \rightarrow S), \sim P \lor \sim R \Rightarrow Q \lor S $$
 
-\textbf{Silogismo Disjuntivo:}\\
-$P \lor Q, \sim P \Rightarrow Q$
-\\
+\textbf{Silogismo Disjuntivo:}
+$$ P \lor Q, \sim P \Rightarrow Q $$
 
-\textbf{Silogismo Hipotético:}\\
-$P \rightarrow Q, Q \rightarrow R \Rightarrow P \rightarrow R$
-\\
+\textbf{Silogismo Hipotético:}
+$$ P \rightarrow Q, Q \rightarrow R \Rightarrow P \rightarrow R $$
 
-\textbf{Conjunção:}\\
-$P, Q \Rightarrow P \land Q$
-\\
+\textbf{Conjunção:}
+$$ P, Q \Rightarrow P \land Q $$
 
-\textbf{Simplificação:}\\
-$P \land Q \Rightarrow P$
-\\
+\textbf{Simplificação:}
+$$ P \land Q \Rightarrow P $$
 
-\textbf{Adição:}\\
-$P \Rightarrow P \lor Q$
+\textbf{Adição:}
+$$ P \Rightarrow P \lor Q  $$
 \end{definition}
 
 Apesar de definidas em uma linha não é dessa forma que descrevemos um processo de inferência, seria algo mais semelhando à uma tabela:
@@ -424,20 +416,17 @@ P            & & \sim Q           & & \sim P   \\
 \end{align*}
 
 Os diagramas acima são fáceis de se ler. Tudo que está em cima da linha é dado como verdadeiro. O que está abaixo é a consequência lógica do que está acima.
-
+\\~\\
 Do processo de inferência podemos gerar o conceito de \textbf{prova formal}:
 \begin{definition}[Prova Formal]
 Uma prova formal da fórmula $q$ (conclusão) a partir de $p_0, ..., p_n$ é uma sequência de fórmulas:
 $$p_0, p_1,..., p_n, q_0, ..., q_m$$
 De tal forma que $q_m = q$, e para todo $i$ $q_i$ é um axioma se $i=0$ então $p_0, ..., p_n \Rightarrow q_0$, caso $i > 0$ então $p_0, ..., p_n, q_0, ..., q_{i-1} \Rightarrow q_i$.
-\\
-
+\\~\\
 Se existe prova formal de $q$ partindo de $p_0, ..., p_n$ então $q$ é \textbf{deduzido} de $p_0, ..., p_n$ e denotamos isso por:
 $$p_0, ..., p_n \vdash q$$
-
 Caso não hajam premissas $q$ é consequência do axioma $q_0$ e das conclusões posteriores $q_1, ..., q_{m}$ uma prova formar é a sequência:
 $$q_0, q_1 ..., q_{m-1}, q_m$$
-
 Como $q = 1_m$, se $i = 0$, $q_i$ é um axioma, se $i > 0$, tal que:
 $$q_0, ..., q_{i-1} \Rightarrow q_i$$
 Escreva $\vdash q$ e chame $q$ de \textbf{teorema}
@@ -445,18 +434,18 @@ Escreva $\vdash q$ e chame $q$ de \textbf{teorema}
 
 Apesar do formalismo deixar essa definição um pouco confusa ela é muito simples. Veja:
 Há um grupo de premissas $p$ e um de consequência $q$. Se $q_i$ onde $i=0$ então $q_i$ é um axioma por ser autoevidente e deduzido diretamente das premissas.
-
+\\~\\
 Um exemplo disso é a função sucessor $S(n)$ \footnote{Para todo numero natural $n$ existe um sucessor $n+1$ e se $S(n) = S(m)$, então $m=n$\\ Não se apegue muito à isso, veremos com mais rigor adiante} dos \textbf{Axiomas de Peano}. Para isso assumimos como premissa que todo número natural tem um sucessor e então deduzimos os axiomas.
-
+\\~\\
 Se $q_i$ e $i > 0$ então $q_i$ e não temos premissas, então $q_i$ é um teorema por basear-se nos axiomas e em teoremas do qual depende. Continuando com o exemplo dos axiomas de peano temos o teorema:
 
 \begin{theorem}
 $2 \neq 4$
 \end{theorem}
 A prova disso não precisa tomar nenhuma premissa, apenas os axiomas que temos conhecimento.\\
-
-\textit{Prova:} Assuma que $2 = 4$, então $S(2) = S(4)$, porém sabemos que $S(2) = 3$ e $S(3) = 4)$, logo, $3 = 4$, o que é um absurdo. $\blacksquare$
-
+\\~\\
+\textit{Prova:} Assuma que $2 = 4$, então $S(2) = S(4)$, porém sabemos que $S(2) = 3$ e $S(3) = 4$, logo, $3 = 4$, o que é um absurdo. $\blacksquare$
+\\~\\
 O leitor não precisa memorizar todos as regras de inferência, mas sim compreender como a lógica torna-se o fundamento da matemática por meio dessas operações, e como os processos só são válidos por obedecerem as regras da lógica. É importante que você internalize esses métodos de pensamento. Você usará bastante ao longo da sua jornada pela matemática.
 \section{Nota Importante}
 
