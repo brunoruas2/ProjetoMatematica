@@ -1,4 +1,4 @@
-\documentclass[main.tex]{subfiles}
+\documentclass[book_of_proof.tex]{subfiles}
 \begin{document}
 
 Em seus estudos verá teoria dos conjuntos incontáveis vezes em diversas campos. Em especial a Análise Real (que é para o que estamos nos preparamos), todo livro que se preze tem um capítulo específico apenas para conjuntos. Isso nos revela o quão relevante e importante é o estudo dos conjuntos.
@@ -40,4 +40,47 @@ A dúvida que fica: Existe $a$ inteiro que torne isso possível? Bom, não, obse
 $$ a  = \frac{2c -  1}{2} = c - \frac{1}{2}$$
 
 Porém $c$ é um número inteiro qualquer, então $a \not\in \mathbb{Z}$, o que contradiz a definição do conjunto $B$. Logo, $A \in B$. $\blacksquare$
+
+\section{Provando que $A = B$}
+
+A igualdade entre conjuntos depende que $A \subset B$ e $B \subset A$. Assim, para provar que um conjunto é igual à outro utilizamos o mesmo princípio da seção anterior, porém realizamos para ambas as partes da igualdade.\\
+A estrutura seria algo mais ou menos assim:\\
+
+\textbf{Teorema} $A = B$\\
+\textit{Prova}: $\forall x \in A$ ... $x \in B$; e
+\\
+$\forall x \in B$ ... $x \in A$ 
+\\
+Portanto, $A = B$ $\blacksquare$
+\\
+Um exemplo para que fique mais claro:
+
+\begin{theorem}
+Sejam $A$, $B$ e $C$ conjuntos quaisquer, então:
+$$(A - B) \times C = (A \times C) - (B \times C)$$
+\end{theorem}
+\textit{Prova}:
+\begin{align*}
+	\begin{aligned}
+	(A - B) \times C & = \{(x,y) | x \in (A-B) \land y \in C\} \ \ \ \ \ \ \ \  & \text{(Def. de $\times$)} \\
+					 & = \{(x,y) | x \in A \land x \not\in B \land y \in C \} & \text{(Def. de -})  \\
+					 & = \{(x,y) | x \in A \land x \not\in B \land y \in C \land y \in C\} & P = P\land P \\
+					 & = \{(x,y) | (x \in A \land  y \in C) \land (x \not\in B \land y \in C)\} & \text{Rearranjo} \\
+					 & = (A \times C) - (B \times C)			& \text{(Def. de $\times$ e -)} \blacksquare
+	\end{aligned}
+\end{align*} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \end{document}
